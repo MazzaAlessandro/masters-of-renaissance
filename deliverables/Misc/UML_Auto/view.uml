@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>it.polimi.ingsw.view</OriginalElement>
+  <nodes>
+    <node x="2322.0" y="2404.0">it.polimi.ingsw.view.gui.sceneController.WaitOtherPlayerController</node>
+    <node x="3695.5" y="3347.0">it.polimi.ingsw.view.gui.sceneController.ConnectionController</node>
+    <node x="1555.5" y="3442.0">it.polimi.ingsw.view.sender.SenderSocketClient</node>
+    <node x="5486.5" y="4636.0">it.polimi.ingsw.view.gui.sceneController.TakeResourcesController</node>
+    <node x="1922.5" y="2042.0">it.polimi.ingsw.view.gui.sceneController.EndGameController</node>
+    <node x="4766.0" y="3742.0">it.polimi.ingsw.view.gui.ClientSoloGuiInitializer</node>
+    <node x="28.0" y="1396.0">it.polimi.ingsw.view.gui.sceneController.DefaultProductionOutputController</node>
+    <node x="1991.5" y="4540.0">it.polimi.ingsw.view.sender.SenderSocketServer</node>
+    <node x="8749.0" y="2049.0">it.polimi.ingsw.view.gui.sceneController.LeaderProductionOutputController</node>
+    <node x="4968.0" y="3435.5">it.polimi.ingsw.view.ClientViewInitializer</node>
+    <node x="1106.0" y="4462.0">it.polimi.ingsw.view.cli.ClientSoloCliInitializer</node>
+    <node x="254.0" y="829.0">it.polimi.ingsw.view.gui.sceneController.MaxPlayerController</node>
+    <node x="7098.0" y="2114.0">it.polimi.ingsw.view.gui.sceneController.StartingDiscardLeaderController</node>
+    <node x="1555.5" y="4573.5">it.polimi.ingsw.view.sender.Sender</node>
+    <node x="5326.5" y="3533.0">it.polimi.ingsw.view.gui.Gui</node>
+    <node x="557.0" y="809.0">it.polimi.ingsw.view.gui.sceneController.DevCardSlotController</node>
+    <node x="1846.5" y="3524.0">it.polimi.ingsw.view.VirtualView</node>
+    <node x="4026.5" y="3369.0">it.polimi.ingsw.view.gui.ClientSocketGuiInitializer</node>
+    <node x="1808.5" y="1066.0">it.polimi.ingsw.view.gui.GuiController</node>
+    <node x="828.5" y="800.0">it.polimi.ingsw.view.gui.sceneController.MainMenuSoloController</node>
+    <node x="1123.0" y="811.0">it.polimi.ingsw.view.gui.sceneController.WaitingRoomMatchIdController</node>
+    <node x="4475.5" y="3753.5">it.polimi.ingsw.view.sender.SenderDirectly</node>
+    <node x="7442.5" y="2083.0">it.polimi.ingsw.view.gui.sceneController.ActivateLeadersController</node>
+    <node x="4976.5" y="2224.0">it.polimi.ingsw.view.gui.sceneController.ActivateProductionController</node>
+    <node x="4152.0" y="3056.0">it.polimi.ingsw.view.gui.sceneController.LeadersController</node>
+    <node x="1455.0" y="362.0">it.polimi.ingsw.view.gui.sceneController.DefaultProductionInputController</node>
+    <node x="4690.0" y="2548.0">it.polimi.ingsw.view.gui.sceneController.DevCardTrayController</node>
+    <node x="4413.0" y="2854.0">it.polimi.ingsw.view.gui.sceneController.OtherPlayersController</node>
+    <node x="6238.5" y="2133.0">it.polimi.ingsw.view.gui.sceneController.ResourcesToDiscardController</node>
+    <node x="8043.5" y="2073.0">it.polimi.ingsw.view.gui.sceneController.NumberOfWhiteToConvertController</node>
+    <node x="6835.5" y="2117.0">it.polimi.ingsw.view.gui.sceneController.MarketTrayController</node>
+    <node x="4034.5" y="4564.5">it.polimi.ingsw.view.gui.JavaFxLauncherSocket</node>
+    <node x="5934.0" y="2160.0">it.polimi.ingsw.view.gui.sceneController.StartingResourcesController</node>
+    <node x="1232.0" y="251.0">it.polimi.ingsw.view.gui.sceneController.LoginController</node>
+    <node x="1532.0" y="120.0">it.polimi.ingsw.view.gui.sceneController.WaitingRoomController</node>
+    <node x="2486.5" y="3579.5">it.polimi.ingsw.view.View</node>
+    <node x="2969.5" y="5282.0">it.polimi.ingsw.view.cli.ClientSocketCliInitializer</node>
+    <node x="963.0" y="5995.0">it.polimi.ingsw.view.cli.Graphics</node>
+    <node x="4437.5" y="3520.0">it.polimi.ingsw.view.gui.JavaFxLauncherSolo</node>
+    <node x="1920.0" y="0.0">it.polimi.ingsw.view.gui.sceneController.MainMenuController</node>
+    <node x="6572.0" y="2136.0">it.polimi.ingsw.view.gui.sceneController.OtherLeadersController</node>
+    <node x="7746.5" y="2084.0">it.polimi.ingsw.view.gui.sceneController.BuyDevCardController</node>
+    <node x="946.5" y="4743.0">it.polimi.ingsw.view.cli.Cli</node>
+    <node x="9183.5" y="1440.0">it.polimi.ingsw.view.gui.sceneController.TurnActionController</node>
+    <node x="5485.0" y="2143.0">it.polimi.ingsw.view.gui.sceneController.DiscardLeadersController</node>
+    <node x="3133.5" y="2982.0">it.polimi.ingsw.view.gui.sceneController.OtherPlayerBoardController</node>
+    <node x="2633.5" y="2389.0">it.polimi.ingsw.view.gui.sceneController.BoardController</node>
+    <node x="8429.0" y="2063.0">it.polimi.ingsw.view.gui.sceneController.ShowTokenController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.ConnectionController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-116.0" />
+      <point x="3831.0" y="1780.0" />
+      <point x="222.5" y="257.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.GuiController" target="it.polimi.ingsw.view.gui.sceneController.OtherPlayerBoardController" relationship="TO_ONE">
+      <point x="222.5" y="277.0" />
+      <point x="3610.5" y="1800.0" />
+      <point x="3610.5" y="3483.0" />
+      <point x="237.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.JavaFxLauncherSocket" target="it.polimi.ingsw.view.gui.GuiController" relationship="DEPENDENCY">
+      <point x="-116.5" y="0.0" />
+      <point x="3131.5" y="4603.0" />
+      <point x="3131.5" y="1830.0" />
+      <point x="222.5" y="307.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.sceneController.ShowTokenController" relationship="CREATE">
+      <point x="284.5" y="50.0" />
+      <point x="8551.0" y="4073.0" />
+      <point x="-0.0" y="160.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.sceneController.LeaderProductionOutputController" relationship="CREATE">
+      <point x="284.5" y="60.0" />
+      <point x="8911.0" y="4083.0" />
+      <point x="-0.0" y="314.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.DevCardTrayController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-215.0" />
+      <point x="4811.0" y="1730.0" />
+      <point x="222.5" y="207.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.VirtualView" target="it.polimi.ingsw.view.sender.Sender" relationship="DEPENDENCY">
+      <point x="-284.5" y="25.0" />
+      <point x="1810.5" y="4028.0" />
+      <point x="1810.5" y="4608.0" />
+      <point x="115.5" y="-15.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.JavaFxLauncherSolo" target="it.polimi.ingsw.view.sender.SenderDirectly" relationship="TO_ONE">
+      <point x="0.0" y="83.0" />
+      <point x="0.0" y="-49.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.ClientSoloGuiInitializer" target="it.polimi.ingsw.view.gui.Gui" relationship="DEPENDENCY">
+      <point x="125.0" y="-5.0" />
+      <point x="-284.5" y="-225.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.DiscardLeadersController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-160.0" />
+      <point x="5611.0" y="1700.0" />
+      <point x="222.5" y="177.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.ClientSoloCliInitializer" target="it.polimi.ingsw.view.ClientViewInitializer" relationship="REALIZATION">
+      <point x="125.0" y="10.75" />
+      <point x="5085.0" y="4533.75" />
+      <point x="14.0" y="27.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.OtherLeadersController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-127.0" />
+      <point x="6691.0" y="1640.0" />
+      <point x="222.5" y="117.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.sender.SenderSocketServer" target="it.polimi.ingsw.view.sender.Sender" relationship="REALIZATION">
+      <point x="-139.5" y="15.0" />
+      <point x="115.5" y="15.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.sender.Sender" relationship="TO_ONE">
+      <point x="-284.5" y="474.5" />
+      <point x="1671.0" y="4497.5" />
+      <point x="-0.0" y="-49.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.StartingResourcesController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-303.0" />
+      <point x="6071.0" y="1660.0" />
+      <point x="222.5" y="137.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.ActivateLeadersController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-160.0" />
+      <point x="7571.0" y="1610.0" />
+      <point x="222.5" y="87.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.VirtualView" target="it.polimi.ingsw.view.View" relationship="REALIZATION">
+      <point x="284.5" y="0.0" />
+      <point x="-284.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.StartingDiscardLeaderController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-149.0" />
+      <point x="7251.0" y="1620.0" />
+      <point x="222.5" y="97.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.ClientSoloGuiInitializer" target="it.polimi.ingsw.view.ClientViewInitializer" relationship="REALIZATION">
+      <point x="123.0" y="-61.0" />
+      <point x="-57.0" y="27.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.GuiController" target="it.polimi.ingsw.view.gui.Gui" relationship="TO_ONE">
+      <point x="222.5" y="167.0" />
+      <point x="5905.125" y="1690.0" />
+      <point x="5905.125" y="3963.0" />
+      <point x="284.5" y="-60.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.MarketTrayController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-226.0" />
+      <point x="6951.0" y="1630.0" />
+      <point x="222.5" y="107.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.ClientSocketCliInitializer" target="it.polimi.ingsw.view.cli.Cli" relationship="DEPENDENCY">
+      <point x="-121.5" y="0.0" />
+      <point x="284.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.ClientSocketGuiInitializer" target="it.polimi.ingsw.view.gui.Gui" relationship="TO_ONE">
+      <point x="5.0" y="-94.0" />
+      <point x="4156.0" y="3345.0" />
+      <point x="5511.75" y="3345.0" />
+      <point x="-99.25" y="-490.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.ClientSocketCliInitializer" target="it.polimi.ingsw.view.sender.SenderSocketClient" relationship="CREATE">
+      <point x="0.0" y="-61.0" />
+      <point x="3091.0" y="3503.0" />
+      <point x="115.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.sceneController.TakeResourcesController" relationship="CREATE">
+      <point x="0.0" y="490.0" />
+      <point x="0.0" y="-347.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.Cli" target="it.polimi.ingsw.view.cli.Graphics" relationship="TO_ONE">
+      <point x="0.0" y="600.0" />
+      <point x="0.0" y="-468.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.GuiController" target="it.polimi.ingsw.view.gui.sceneController.BoardController" relationship="CREATE">
+      <point x="222.5" y="297.0" />
+      <point x="3135.5" y="1820.0" />
+      <point x="3135.5" y="2923.0" />
+      <point x="237.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.WaitOtherPlayerController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-39.0" />
+      <point x="2451.0" y="1860.0" />
+      <point x="222.5" y="337.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.JavaFxLauncherSocket" target="it.polimi.ingsw.view.gui.ClientSocketGuiInitializer" relationship="CREATE">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.ResourcesToDiscardController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-270.0" />
+      <point x="6391.0" y="1650.0" />
+      <point x="222.5" y="127.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.GuiController" target="it.polimi.ingsw.view.gui.sceneController.BoardController" relationship="TO_ONE">
+      <point x="222.5" y="347.0" />
+      <point x="2320.0" y="1870.0" />
+      <point x="2320.0" y="2923.0" />
+      <point x="-237.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.ClientSoloGuiInitializer" target="it.polimi.ingsw.view.gui.Gui" relationship="TO_ONE">
+      <point x="125.0" y="5.0" />
+      <point x="-284.5" y="-215.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.ClientSoloCliInitializer" target="it.polimi.ingsw.view.cli.Cli" relationship="DEPENDENCY">
+      <point x="0.0" y="61.0" />
+      <point x="0.0" y="-600.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.ClientSoloGuiInitializer" target="it.polimi.ingsw.view.sender.SenderDirectly" relationship="DEPENDENCY">
+      <point x="0.0" y="61.0" />
+      <point x="4891.0" y="3986.0" />
+      <point x="4606.0" y="3986.0" />
+      <point x="15.0" y="49.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.GuiController" target="it.polimi.ingsw.view.sender.Sender" relationship="DEPENDENCY">
+      <point x="-207.5" y="457.0" />
+      <point x="1823.5" y="4618.0" />
+      <point x="115.5" y="-5.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.JavaFxLauncherSolo" target="it.polimi.ingsw.view.gui.ClientSoloGuiInitializer" relationship="CREATE">
+      <point x="153.5" y="11.5" />
+      <point x="4891.0" y="3614.5" />
+      <point x="-0.0" y="-61.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.sceneController.ResourcesToDiscardController" relationship="CREATE">
+      <point x="284.5" y="-20.0" />
+      <point x="6391.0" y="4003.0" />
+      <point x="-0.0" y="270.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.JavaFxLauncherSolo" target="it.polimi.ingsw.view.gui.Gui" relationship="CREATE">
+      <point x="153.5" y="1.5" />
+      <point x="-284.5" y="-418.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.ClientViewInitializer" relationship="TO_ONE">
+      <point x="-284.5" y="0.0" />
+      <point x="5105.0" y="4023.0" />
+      <point x="34.0" y="27.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.MainMenuController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="0.0" y="83.0" />
+      <point x="0.0" y="-457.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.BuyDevCardController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-259.0" />
+      <point x="7871.0" y="1600.0" />
+      <point x="222.5" y="77.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.ClientSocketCliInitializer" target="it.polimi.ingsw.view.cli.Cli" relationship="TO_ONE">
+      <point x="0.0" y="61.0" />
+      <point x="3091.0" y="5945.0" />
+      <point x="1244.25" y="5945.0" />
+      <point x="13.25" y="600.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.Cli" target="it.polimi.ingsw.view.sender.Sender" relationship="DEPENDENCY">
+      <point x="284.5" y="-279.5" />
+      <point x="1666.0" y="5063.5" />
+      <point x="-5.0" y="49.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.ClientSoloCliInitializer" target="it.polimi.ingsw.view.cli.Cli" relationship="TO_ONE">
+      <point x="-125.0" y="0.0" />
+      <point x="26.0" y="4523.0" />
+      <point x="26.0" y="5338.0" />
+      <point x="-284.5" y="-5.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.ClientSocketGuiInitializer" target="it.polimi.ingsw.view.ClientViewInitializer" relationship="REALIZATION">
+      <point x="124.5" y="0.0" />
+      <point x="-103.0" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.sceneController.BuyDevCardController" relationship="CREATE">
+      <point x="284.5" y="30.0" />
+      <point x="7871.0" y="4053.0" />
+      <point x="-0.0" y="259.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.JavaFxLauncherSolo" target="it.polimi.ingsw.view.gui.GuiController" relationship="DEPENDENCY">
+      <point x="60.0" y="-83.0" />
+      <point x="4651.0" y="1740.0" />
+      <point x="222.5" y="217.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.EndGameController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="0.0" y="-61.0" />
+      <point x="0.0" y="457.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.OtherPlayerBoardController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-501.0" />
+      <point x="3371.0" y="1810.0" />
+      <point x="222.5" y="287.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.LeaderProductionOutputController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-314.0" />
+      <point x="8911.0" y="1560.0" />
+      <point x="222.5" y="37.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.TakeResourcesController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-124.5" y="0.0" />
+      <point x="3693.5" y="4983.0" />
+      <point x="3693.5" y="1790.0" />
+      <point x="222.5" y="267.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.sceneController.DevCardTrayController" relationship="CREATE">
+      <point x="-69.25" y="-490.0" />
+      <point x="5541.75" y="2763.0" />
+      <point x="121.0" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.MainMenuSoloController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="83.0" />
+      <point x="951.0" y="1353.0" />
+      <point x="-222.5" y="-170.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.WaitingRoomController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="119.0" y="0.0" />
+      <point x="1975.25" y="203.0" />
+      <point x="-55.75" y="-457.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.Cli" target="it.polimi.ingsw.view.cli.Graphics" relationship="CREATE">
+      <point x="-284.5" y="5.0" />
+      <point x="26.0" y="5348.0" />
+      <point x="26.0" y="6463.0" />
+      <point x="-268.0" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.ClientViewInitializer" relationship="DEPENDENCY">
+      <point x="-109.25" y="-490.0" />
+      <point x="5501.75" y="3463.0" />
+      <point x="103.0" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.sceneController.DiscardLeadersController" relationship="CREATE">
+      <point x="0.0" y="-490.0" />
+      <point x="0.0" y="160.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.sceneController.ActivateLeadersController" relationship="CREATE">
+      <point x="284.5" y="20.0" />
+      <point x="7571.0" y="4043.0" />
+      <point x="-0.0" y="160.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.ShowTokenController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="122.0" y="0.0" />
+      <point x="8675.0" y="2223.0" />
+      <point x="8675.0" y="1570.0" />
+      <point x="222.5" y="47.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.Cli" target="it.polimi.ingsw.view.View" relationship="REALIZATION">
+      <point x="284.5" y="-269.5" />
+      <point x="2771.0" y="5073.5" />
+      <point x="-0.0" y="423.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.TurnActionController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-127.5" y="0.0" />
+      <point x="222.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.sender.Sender" relationship="DEPENDENCY">
+      <point x="-284.5" y="482.25" />
+      <point x="1681.0" y="4505.25" />
+      <point x="10.0" y="-49.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.ClientSocketGuiInitializer" target="it.polimi.ingsw.view.gui.GuiController" relationship="DEPENDENCY">
+      <point x="-61.75" y="-94.0" />
+      <point x="4089.25" y="1770.0" />
+      <point x="222.5" y="247.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.ConnectionController" target="it.polimi.ingsw.view.gui.ClientSocketGuiInitializer" relationship="DEPENDENCY">
+      <point x="135.5" y="0.0" />
+      <point x="-124.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.sceneController.OtherLeadersController" relationship="CREATE">
+      <point x="284.5" y="-10.0" />
+      <point x="6691.0" y="4013.0" />
+      <point x="-0.0" y="127.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.View" relationship="REALIZATION">
+      <point x="-284.5" y="-20.0" />
+      <point x="284.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.ClientSoloGuiInitializer" target="it.polimi.ingsw.view.sender.SenderDirectly" relationship="TO_ONE">
+      <point x="-125.0" y="0.0" />
+      <point x="115.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.MaxPlayerController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="94.0" />
+      <point x="391.0" y="1373.0" />
+      <point x="-222.5" y="-150.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.Cli" target="it.polimi.ingsw.view.sender.Sender" relationship="TO_ONE">
+      <point x="84.75" y="-600.0" />
+      <point x="1315.75" y="4623.0" />
+      <point x="-115.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.sceneController.MarketTrayController" relationship="CREATE">
+      <point x="284.5" y="0.0" />
+      <point x="6951.0" y="4023.0" />
+      <point x="-0.0" y="226.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.LoginController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="99.0" y="0.0" />
+      <point x="1965.25" y="323.0" />
+      <point x="-65.75" y="-457.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.ClientSoloCliInitializer" target="it.polimi.ingsw.view.sender.SenderDirectly" relationship="TO_ONE">
+      <point x="125.0" y="4.5" />
+      <point x="4586.0" y="4527.5" />
+      <point x="-5.0" y="49.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.sceneController.StartingDiscardLeaderController" relationship="CREATE">
+      <point x="284.5" y="10.0" />
+      <point x="7251.0" y="4033.0" />
+      <point x="-0.0" y="149.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.sceneController.StartingResourcesController" relationship="CREATE">
+      <point x="284.5" y="-30.0" />
+      <point x="6071.0" y="3993.0" />
+      <point x="-0.0" y="303.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.sender.SenderSocketClient" target="it.polimi.ingsw.view.sender.Sender" relationship="REALIZATION">
+      <point x="-20.0" y="61.0" />
+      <point x="-20.0" y="-49.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.VirtualView" target="it.polimi.ingsw.view.sender.SenderSocketServer" relationship="CREATE">
+      <point x="0.0" y="479.0" />
+      <point x="0.0" y="-83.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.GuiController" target="it.polimi.ingsw.view.gui.sceneController.OtherPlayerBoardController" relationship="CREATE">
+      <point x="222.5" y="327.0" />
+      <point x="2631.5" y="1850.0" />
+      <point x="2631.5" y="3483.0" />
+      <point x="-237.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.BoardController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-534.0" />
+      <point x="2871.0" y="1840.0" />
+      <point x="222.5" y="317.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.JavaFxLauncherSolo" target="it.polimi.ingsw.view.sender.SenderDirectly" relationship="DEPENDENCY">
+      <point x="-153.5" y="0.0" />
+      <point x="4265.5" y="3603.0" />
+      <point x="4265.5" y="3803.0" />
+      <point x="-115.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.sender.SenderDirectly" target="it.polimi.ingsw.view.sender.Sender" relationship="REALIZATION">
+      <point x="5.0" y="49.5" />
+      <point x="4596.0" y="4745.0" />
+      <point x="1676.0" y="4745.0" />
+      <point x="5.0" y="49.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.ClientSocketCliInitializer" target="it.polimi.ingsw.view.ClientViewInitializer" relationship="REALIZATION">
+      <point x="121.5" y="0.0" />
+      <point x="5095.0" y="5343.0" />
+      <point x="24.0" y="27.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.GuiController" target="it.polimi.ingsw.view.gui.sceneController.ShowTokenController" relationship="DEPENDENCY">
+      <point x="222.5" y="57.0" />
+      <point x="8551.0" y="1580.0" />
+      <point x="-0.0" y="-160.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.JavaFxLauncherSocket" target="it.polimi.ingsw.view.gui.Gui" relationship="CREATE">
+      <point x="116.5" y="0.0" />
+      <point x="5531.0" y="4603.0" />
+      <point x="-80.0" y="490.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.DefaultProductionInputController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="281.0" />
+      <point x="1611.0" y="1333.0" />
+      <point x="-222.5" y="-190.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.sceneController.LeadersController" relationship="CREATE">
+      <point x="-89.25" y="-490.0" />
+      <point x="5521.75" y="3183.0" />
+      <point x="119.0" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.sceneController.OtherPlayersController" relationship="CREATE">
+      <point x="-79.25" y="-490.0" />
+      <point x="5531.75" y="3003.0" />
+      <point x="118.0" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.ClientSocketGuiInitializer" target="it.polimi.ingsw.view.sender.SenderSocketClient" relationship="CREATE">
+      <point x="-10.0" y="94.0" />
+      <point x="4141.0" y="4489.75" />
+      <point x="1691.0" y="4489.75" />
+      <point x="20.0" y="61.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.OtherPlayersController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-149.0" />
+      <point x="4531.0" y="1750.0" />
+      <point x="222.5" y="227.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.LeadersController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-127.0" />
+      <point x="4271.0" y="1760.0" />
+      <point x="222.5" y="237.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.sceneController.ActivateProductionController" relationship="CREATE">
+      <point x="-59.25" y="-490.0" />
+      <point x="5551.75" y="2483.0" />
+      <point x="154.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.WaitingRoomMatchIdController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="72.0" />
+      <point x="1271.0" y="1343.0" />
+      <point x="-222.5" y="-180.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.ActivateProductionController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-259.0" />
+      <point x="5131.0" y="1710.0" />
+      <point x="222.5" y="187.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.ClientSocketGuiInitializer" target="it.polimi.ingsw.view.gui.Gui" relationship="DEPENDENCY">
+      <point x="10.0" y="94.0" />
+      <point x="4161.0" y="4515.0" />
+      <point x="5521.0" y="4515.0" />
+      <point x="-90.0" y="490.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.VirtualView" target="it.polimi.ingsw.view.sender.Sender" relationship="TO_ONE">
+      <point x="-284.5" y="15.0" />
+      <point x="1661.0" y="4018.0" />
+      <point x="-10.0" y="-49.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.ClientSoloGuiInitializer" target="it.polimi.ingsw.view.gui.GuiController" relationship="DEPENDENCY">
+      <point x="43.0" y="-61.0" />
+      <point x="4934.0" y="1720.0" />
+      <point x="222.5" y="197.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.ClientSoloCliInitializer" target="it.polimi.ingsw.view.sender.SenderDirectly" relationship="DEPENDENCY">
+      <point x="125.0" y="-1.75" />
+      <point x="4576.0" y="4521.25" />
+      <point x="-15.0" y="49.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.DefaultProductionOutputController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="163.0" y="0.0" />
+      <point x="-222.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.sceneController.NumberOfWhiteToConvertController" relationship="CREATE">
+      <point x="284.5" y="40.0" />
+      <point x="8211.0" y="4063.0" />
+      <point x="-0.0" y="270.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.DevCardSlotController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="94.0" />
+      <point x="671.0" y="1363.0" />
+      <point x="-222.5" y="-160.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.GuiController" target="it.polimi.ingsw.view.sender.Sender" relationship="TO_ONE">
+      <point x="-197.5" y="457.0" />
+      <point x="1833.5" y="4628.0" />
+      <point x="115.5" y="5.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.GuiController" target="it.polimi.ingsw.view.gui.Gui" relationship="DEPENDENCY">
+      <point x="222.5" y="157.0" />
+      <point x="5914.75" y="1680.0" />
+      <point x="5914.75" y="3973.0" />
+      <point x="284.5" y="-50.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.GuiController" relationship="DEPENDENCY">
+      <point x="284.5" y="-40.0" />
+      <point x="5924.375" y="3983.0" />
+      <point x="5924.375" y="1670.0" />
+      <point x="222.5" y="147.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController.NumberOfWhiteToConvertController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-270.0" />
+      <point x="8211.0" y="1590.0" />
+      <point x="222.5" y="67.0" />
+    </edge>
+  </edges>
+  <settings layout="Components" zoom="0.1" showDependencies="true" x="4925.0" y="3628.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

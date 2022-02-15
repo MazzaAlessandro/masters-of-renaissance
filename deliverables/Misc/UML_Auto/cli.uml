@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>it.polimi.ingsw.view.cli</OriginalElement>
+  <nodes>
+    <node x="0.0" y="987.0">it.polimi.ingsw.view.cli.Cli</node>
+    <node x="256.5" y="2248.0">it.polimi.ingsw.view.cli.ClientSoloCliInitializer</node>
+    <node x="24.5" y="2248.0">it.polimi.ingsw.view.cli.ClientSocketCliInitializer</node>
+    <node x="17.0" y="0.0">it.polimi.ingsw.view.cli.Graphics</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="it.polimi.ingsw.view.cli.Cli" target="it.polimi.ingsw.view.cli.Graphics" relationship="CREATE">
+      <point x="124.0" y="-600.5" />
+      <point x="372.0" y="962.0" />
+      <point x="363.5" y="962.0" />
+      <point x="115.5" y="468.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.Cli" target="it.polimi.ingsw.view.cli.Graphics" relationship="TO_ONE">
+      <point x="-124.0" y="-600.5" />
+      <point x="124.0" y="962.0" />
+      <point x="132.5" y="962.0" />
+      <point x="-115.5" y="468.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.ClientSocketCliInitializer" target="it.polimi.ingsw.view.cli.Cli" relationship="TO_ONE">
+      <point x="-53.0" y="-61.5" />
+      <point x="77.5" y="2208.0" />
+      <point x="124.0" y="2208.0" />
+      <point x="-124.0" y="600.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.ClientSocketCliInitializer" target="it.polimi.ingsw.view.cli.Cli" relationship="DEPENDENCY">
+      <point x="53.0" y="-61.5" />
+      <point x="183.5" y="2228.0" />
+      <point x="418.5" y="2228.0" />
+      <point x="418.5" y="2218.0" />
+      <point x="372.0" y="2218.0" />
+      <point x="124.0" y="600.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.ClientSoloCliInitializer" target="it.polimi.ingsw.view.cli.Cli" relationship="DEPENDENCY">
+      <point x="54.0" y="-61.5" />
+      <point x="418.5" y="2218.0" />
+      <point x="372.0" y="2218.0" />
+      <point x="124.0" y="600.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.cli.ClientSoloCliInitializer" target="it.polimi.ingsw.view.cli.Cli" relationship="TO_ONE">
+      <point x="-54.0" y="-61.5" />
+      <point x="310.5" y="2218.0" />
+      <point x="77.5" y="2218.0" />
+      <point x="77.5" y="2208.0" />
+      <point x="124.0" y="2208.0" />
+      <point x="-124.0" y="600.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="111.5" y="2286.0" />
+  <SelectedNodes>
+    <node>it.polimi.ingsw.view.cli.Graphics</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

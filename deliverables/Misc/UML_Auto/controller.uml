@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/davidemarinotto/Documents/ProgettoIngSoftware/src/main/java/it/polimi/ingsw/controller</OriginalElement>
+  <nodes>
+    <node x="911.5" y="746.5">it.polimi.ingsw.controller.ValidatorController</node>
+    <node x="418.0" y="41.0">it.polimi.ingsw.controller.GameController</node>
+    <node x="76.03377214027824" y="1659.0843804246726">it.polimi.ingsw.controller.MatchControllerSolo</node>
+    <node x="1468.5" y="944.0">it.polimi.ingsw.controller.MatchControllerMulti</node>
+    <node x="349.5" y="614.0">it.polimi.ingsw.controller.MatchController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="it.polimi.ingsw.controller.GameController" target="it.polimi.ingsw.controller.MatchController" relationship="TO_ONE">
+      <point x="0.0" y="259.0" />
+      <point x="0.0" y="-446.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.controller.MatchControllerSolo" target="it.polimi.ingsw.controller.ValidatorController" relationship="DEPENDENCY">
+      <point x="-0.0" y="-60.5" />
+      <point x="224.53377214027824" y="1719.5843804246726" />
+      <point x="1170.0" y="1719.5843804246726" />
+      <point x="10.0" y="-313.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.controller.MatchControllerSolo" target="it.polimi.ingsw.controller.MatchController" relationship="GENERALIZATION">
+      <point x="-0.0" y="60.5" />
+      <point x="224.53377214027824" y="1582.5421902123362" />
+      <point x="542.8214473219382" y="1582.5421902123362" />
+      <point x="542.8214473219382" y="1065.0" />
+      <point x="-250.5" y="5.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.controller.MatchController" target="it.polimi.ingsw.controller.ValidatorController" relationship="TO_ONE">
+      <point x="250.5" y="0.0" />
+      <point x="-248.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.controller.MatchControllerMulti" target="it.polimi.ingsw.controller.ValidatorController" relationship="DEPENDENCY">
+      <point x="-111.5" y="0.0" />
+      <point x="248.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.controller.GameController" target="it.polimi.ingsw.controller.MatchController" relationship="DEPENDENCY">
+      <point x="-182.0" y="104.25" />
+      <point x="347.5" y="404.25" />
+      <point x="347.5" y="1055.0" />
+      <point x="-250.5" y="-5.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.controller.GameController" target="it.polimi.ingsw.controller.ValidatorController" relationship="CREATE">
+      <point x="182.0" y="0.0" />
+      <point x="1150.0" y="300.0" />
+      <point x="-10.0" y="-313.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.controller.GameController" target="it.polimi.ingsw.controller.ValidatorController" relationship="TO_ONE">
+      <point x="-0.0" y="-259.0" />
+      <point x="600.0" y="31.0" />
+      <point x="1160.0" y="31.0" />
+      <point x="-0.0" y="-313.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.controller.MatchControllerMulti" target="it.polimi.ingsw.controller.MatchController" relationship="GENERALIZATION">
+      <point x="-0.0" y="116.0" />
+      <point x="1580.0" y="1526.0" />
+      <point x="595.0" y="1526.0" />
+      <point x="-5.0" y="446.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.controller.MatchController" target="it.polimi.ingsw.controller.ValidatorController" relationship="DEPENDENCY">
+      <point x="5.0" y="446.0" />
+      <point x="605.0" y="1516.0" />
+      <point x="1160.0" y="1516.0" />
+      <point x="-0.0" y="313.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.controller.GameController" target="it.polimi.ingsw.controller.MatchControllerSolo" relationship="CREATE">
+      <point x="-182.0" y="0.0" />
+      <point x="265.8012701997121" y="300.0" />
+      <point x="265.8012701997121" y="1719.5843804246726" />
+      <point x="148.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Compact" zoom="0.3430581561163082" showDependencies="true" x="1395.4465628747446" y="1033.7571940934686" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

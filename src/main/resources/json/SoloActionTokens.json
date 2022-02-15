@@ -1,0 +1,30 @@
+[
+  {
+    "type": "MOVEANDSHUFFLE",
+    "color": "null"
+  },
+  {
+    "type": "MOVE2FORWARD",
+    "color": "null"
+  },
+  {
+    "type": "MOVE2FORWARD",
+    "color": "null"
+  },
+  {
+    "type": "DISCARDDEVCARDS",
+    "color": "GREEN"
+  },
+  {
+    "type": "DISCARDDEVCARDS",
+    "color": "YELLOW"
+  },
+  {
+    "type": "DISCARDDEVCARDS",
+    "color": "BLUE"
+  },
+  {
+    "type": "DISCARDDEVCARDS",
+    "color": "PURPLE"
+  }
+]

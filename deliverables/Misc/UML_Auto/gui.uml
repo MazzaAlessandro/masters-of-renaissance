@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>it.polimi.ingsw.view.gui</OriginalElement>
+  <nodes>
+    <node x="211.7902462121212" y="2328.0">it.polimi.ingsw.view.gui.ClientSoloGuiInitializer</node>
+    <node x="475.21022727272714" y="2350.5">it.polimi.ingsw.view.gui.JavaFxLauncherSocket</node>
+    <node x="212.96306818181807" y="2503.0">it.polimi.ingsw.view.gui.JavaFxLauncherSolo</node>
+    <node x="127.29356060606051" y="1033.0">it.polimi.ingsw.view.gui.ClientSocketGuiInitializer</node>
+    <node x="83.92329545454527" y="1361.0">it.polimi.ingsw.view.gui.GuiController</node>
+    <node x="256.04640151515144" y="1276.0">it.polimi.ingsw.view.gui.sceneController</node>
+    <node x="0.0" y="0.0">it.polimi.ingsw.view.gui.Gui</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="it.polimi.ingsw.view.gui.ClientSocketGuiInitializer" target="it.polimi.ingsw.view.gui.Gui" relationship="DEPENDENCY">
+      <point x="54.25" y="-94.5" />
+      <point x="290.0435606060605" y="1012.0" />
+      <point x="491.9663825757574" y="1012.0" />
+      <point x="491.9663825757574" y="1002.0" />
+      <point x="434.0" y="1002.0" />
+      <point x="186.0" y="490.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController" target="it.polimi.ingsw.view.gui.ClientSocketGuiInitializer" relationship="DEPENDENCY">
+      <point x="49.5" y="-15.5" />
+      <point x="404.54640151515144" y="1254.0" />
+      <point x="365.2935606060605" y="1254.0" />
+      <point x="365.2935606060605" y="1244.0" />
+      <point x="290.0435606060605" y="1244.0" />
+      <point x="54.25" y="94.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.sceneController" relationship="CREATE">
+      <point x="62.0" y="490.5" />
+      <point x="310.0" y="1002.0" />
+      <point x="354.7935606060605" y="1002.0" />
+      <point x="354.7935606060605" y="1254.0" />
+      <point x="305.54640151515144" y="1254.0" />
+      <point x="-49.5" y="-15.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.ClientSoloGuiInitializer" target="it.polimi.ingsw.view.gui.GuiController" relationship="DEPENDENCY">
+      <point x="0.0" y="-61.5" />
+      <point x="319.7902462121212" y="2307.0" />
+      <point x="277.92329545454527" y="2307.0" />
+      <point x="0.0" y="457.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.GuiController" target="it.polimi.ingsw.view.gui.Gui" relationship="TO_ONE">
+      <point x="-161.66666666666669" y="-457.5" />
+      <point x="116.25662878787858" y="1339.0" />
+      <point x="105.79356060606051" y="1339.0" />
+      <point x="105.79356060606051" y="1002.0" />
+      <point x="62.0" y="1002.0" />
+      <point x="-186.0" y="490.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.JavaFxLauncherSocket" target="it.polimi.ingsw.view.gui.GuiController" relationship="DEPENDENCY">
+      <point x="-65.66666666666669" y="-39.0" />
+      <point x="508.04356060606045" y="2307.0" />
+      <point x="277.92329545454527" y="2307.0" />
+      <point x="0.0" y="457.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.ClientSoloGuiInitializer" target="it.polimi.ingsw.view.gui.Gui" relationship="TO_ONE">
+      <point x="-72.0" y="-61.5" />
+      <point x="247.7902462121212" y="2297.0" />
+      <point x="50.546401515151445" y="2297.0" />
+      <point x="50.546401515151445" y="1012.0" />
+      <point x="105.79356060606051" y="1012.0" />
+      <point x="105.79356060606051" y="1002.0" />
+      <point x="62.0" y="1002.0" />
+      <point x="-186.0" y="490.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.Gui" target="it.polimi.ingsw.view.gui.GuiController" relationship="DEPENDENCY">
+      <point x="-62.0" y="490.5" />
+      <point x="186.0" y="1002.0" />
+      <point x="116.79356060606051" y="1002.0" />
+      <point x="116.79356060606051" y="1329.0" />
+      <point x="149.1685606060605" y="1329.0" />
+      <point x="149.1685606060605" y="1339.0" />
+      <point x="180.92329545454527" y="1339.0" />
+      <point x="-97.0" y="-457.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.GuiController" target="it.polimi.ingsw.view.gui.Gui" relationship="DEPENDENCY">
+      <point x="161.66666666666669" y="-457.5" />
+      <point x="439.58996212121195" y="1339.0" />
+      <point x="464.54640151515144" y="1339.0" />
+      <point x="464.54640151515144" y="1012.0" />
+      <point x="491.9663825757574" y="1012.0" />
+      <point x="491.9663825757574" y="1002.0" />
+      <point x="434.0" y="1002.0" />
+      <point x="186.0" y="490.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.JavaFxLauncherSocket" target="it.polimi.ingsw.view.gui.Gui" relationship="CREATE">
+      <point x="65.66666666666663" y="-39.0" />
+      <point x="639.3768939393938" y="2307.0" />
+      <point x="630.963068181818" y="2307.0" />
+      <point x="630.963068181818" y="1012.0" />
+      <point x="491.9663825757574" y="1012.0" />
+      <point x="491.9663825757574" y="1002.0" />
+      <point x="434.0" y="1002.0" />
+      <point x="186.0" y="490.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.ClientSocketGuiInitializer" target="it.polimi.ingsw.view.gui.Gui" relationship="TO_ONE">
+      <point x="-54.25" y="-94.5" />
+      <point x="181.5435606060605" y="1012.0" />
+      <point x="105.79356060606051" y="1012.0" />
+      <point x="105.79356060606051" y="1002.0" />
+      <point x="62.0" y="1002.0" />
+      <point x="-186.0" y="490.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.GuiController" target="it.polimi.ingsw.view.gui.sceneController" relationship="TO_ONE">
+      <point x="-32.333333333333314" y="-457.5" />
+      <point x="245.58996212121195" y="1339.0" />
+      <point x="289.04640151515144" y="1339.0" />
+      <point x="-66.0" y="15.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.GuiController" target="it.polimi.ingsw.view.gui.sceneController" relationship="CREATE">
+      <point x="97.0" y="-457.5" />
+      <point x="374.92329545454527" y="1339.0" />
+      <point x="421.04640151515144" y="1339.0" />
+      <point x="66.0" y="15.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.ClientSoloGuiInitializer" target="it.polimi.ingsw.view.gui.Gui" relationship="DEPENDENCY">
+      <point x="72.0" y="-61.5" />
+      <point x="391.7902462121212" y="2297.0" />
+      <point x="495.2130681818181" y="2297.0" />
+      <point x="495.2130681818181" y="1012.0" />
+      <point x="491.9663825757574" y="1012.0" />
+      <point x="491.9663825757574" y="1002.0" />
+      <point x="434.0" y="1002.0" />
+      <point x="186.0" y="490.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.JavaFxLauncherSolo" target="it.polimi.ingsw.view.gui.ClientSoloGuiInitializer" relationship="CREATE">
+      <point x="0.0" y="-83.5" />
+      <point x="344.4630681818181" y="2477.0" />
+      <point x="319.7902462121212" y="2477.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.sceneController" target="it.polimi.ingsw.view.gui.GuiController" relationship="GENERALIZATION">
+      <point x="0.0" y="15.5" />
+      <point x="355.04640151515144" y="1339.0" />
+      <point x="310.25662878787864" y="1339.0" />
+      <point x="32.33333333333337" y="-457.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.ClientSocketGuiInitializer" target="it.polimi.ingsw.view.gui.GuiController" relationship="DEPENDENCY">
+      <point x="-54.25" y="94.5" />
+      <point x="181.5435606060605" y="1329.0" />
+      <point x="149.1685606060605" y="1329.0" />
+      <point x="149.1685606060605" y="1339.0" />
+      <point x="180.92329545454527" y="1339.0" />
+      <point x="-97.0" y="-457.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.JavaFxLauncherSolo" target="it.polimi.ingsw.view.gui.Gui" relationship="CREATE">
+      <point x="87.66666666666669" y="-83.5" />
+      <point x="432.12973484848476" y="2477.0" />
+      <point x="682.7102272727271" y="2477.0" />
+      <point x="682.7102272727271" y="1012.0" />
+      <point x="491.9663825757574" y="1012.0" />
+      <point x="491.9663825757574" y="1002.0" />
+      <point x="434.0" y="1002.0" />
+      <point x="186.0" y="490.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.JavaFxLauncherSocket" target="it.polimi.ingsw.view.gui.ClientSocketGuiInitializer" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="573.7102272727271" y="2307.0" />
+      <point x="598.383049242424" y="2307.0" />
+      <point x="598.383049242424" y="1254.0" />
+      <point x="365.2935606060605" y="1254.0" />
+      <point x="365.2935606060605" y="1244.0" />
+      <point x="290.0435606060605" y="1244.0" />
+      <point x="54.25" y="94.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.view.gui.JavaFxLauncherSolo" target="it.polimi.ingsw.view.gui.GuiController" relationship="DEPENDENCY">
+      <point x="-87.66666666666669" y="-83.5" />
+      <point x="256.7964015151514" y="2477.0" />
+      <point x="201.2902462121212" y="2477.0" />
+      <point x="201.2902462121212" y="2307.0" />
+      <point x="277.92329545454527" y="2307.0" />
+      <point x="0.0" y="457.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5499999999999999" showDependencies="true" x="400.0000000000009" y="2148.818181818182" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

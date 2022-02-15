@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="leadersPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" styleClass="bg-light" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER" layoutY="28.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label fx:id="titleLabel" alignment="CENTER" prefHeight="46.0" prefWidth="108.0" text="LEADERS">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="290.0" prefWidth="600.0">
+               <children>
+                  <ImageView fx:id="leader1" fitHeight="280.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+
+                  </ImageView>
+                  <ImageView fx:id="leader2" fitHeight="280.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button fx:id="backBtn" layoutX="269.0" layoutY="438.0" mnemonicParsing="false" styleClass="btn-back" text="←" />
+      <Label fx:id="leaderGoneLabel" alignment="CENTER" prefWidth="600.0" text="Your leader cards are gone, go back to the board" visible="false" AnchorPane.topAnchor="270.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

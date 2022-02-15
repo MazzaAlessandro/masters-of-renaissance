@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="turnActionPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" styleClass="fancyBgPane" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.view.gui.sceneController.TurnActionController">
+   <bottom>
+        <AnchorPane prefHeight="400.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <VBox alignment="CENTER" layoutX="100.0" layoutY="52.0" prefHeight="398.0" prefWidth="400.0" spacing="15.0">
+                <Label text="Choose one of the following actions:">
+                    <VBox.margin>
+                        <Insets bottom="15.0" />
+                    </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+                </Label>
+                <Button fx:id="takeResourcesBtn" mnemonicParsing="false" onAction="#chooseUpdate" styleClass="btn-lg" text="Take Resources from the Market" />
+                <Button fx:id="buyDevCardBtn" mnemonicParsing="false" onAction="#chooseUpdate" styleClass="btn-lg" text="Buy one Development Card" />
+                <Button fx:id="activeProductionBtn" mnemonicParsing="false" onAction="#chooseUpdate" styleClass="btn-lg" text="Activate the Production" />
+            </VBox>
+        </AnchorPane>
+   </bottom>
+</BorderPane>

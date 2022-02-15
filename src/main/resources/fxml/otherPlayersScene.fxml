@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="otherPlayersPane" prefHeight="400.0" prefWidth="600.0" styleClass="bg-light" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER" layoutX="200.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" spacing="15.0">
+         <children>
+            <Label fx:id="noOtherLbl" styleClass="label-lg" text="No other Players" visible="false" />
+            <Button fx:id="player1Btn" mnemonicParsing="false" styleClass="btn-md" text="Button" visible="false" />
+            <Button fx:id="player2Btn" mnemonicParsing="false" styleClass="btn-md" text="Button" visible="false" />
+            <Button fx:id="player3Btn" mnemonicParsing="false" styleClass="btn-md" text="Button" visible="false" />
+         </children>
+      </VBox>
+      <Button fx:id="backBtn" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" styleClass="btn-back" />
+   </children>
+</AnchorPane>

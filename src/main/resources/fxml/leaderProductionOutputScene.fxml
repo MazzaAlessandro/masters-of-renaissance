@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="leaderProductionOutputPane" prefHeight="500.0" prefWidth="600.0" styleClass="bg-light" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="productionLabel" layoutX="105.0" layoutY="67.0" prefHeight="22.0" prefWidth="390.0" text="Select your Leader Production Ouput Resource:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="enterBtn" layoutX="221.0" layoutY="447.0" mnemonicParsing="false" styleClass="btn-md" text="Enter" />
+      <HBox alignment="CENTER" layoutX="30.0" layoutY="117.0" prefHeight="135.0" prefWidth="542.0" spacing="100.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="150.0">
+               <children>
+                  <ImageView fitHeight="100.0" fitWidth="90.0">
+                     <image>
+                        <Image url="@../images/resources/shield.png" />
+                     </image>
+                  </ImageView>
+                  <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="minusShieldBtn" mnemonicParsing="false" prefHeight="35.2" prefWidth="35.2" styleClass="btn-bg-square" text="-" />
+                        <TextField fx:id="amountShield" alignment="CENTER" editable="false" prefHeight="35.2" prefWidth="80.0" text="0" />
+                        <Button fx:id="plusShieldBtn" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" styleClass="btn-bg-square" text="+" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="150.0">
+               <children>
+                  <ImageView fitHeight="100.0" fitWidth="100.0">
+                     <image>
+                        <Image url="@../images/resources/servant.png" />
+                     </image>
+                  </ImageView>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="minusServantBtn" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" styleClass="btn-bg-square" text="-" />
+                        <TextField fx:id="amountServant" alignment="CENTER" editable="false" prefHeight="35.2" prefWidth="80.0" text="0" />
+                        <Button fx:id="plusServantBtn" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" styleClass="btn-bg-square" text="+" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="29.0" layoutY="286.0" prefHeight="135.0" prefWidth="542.0" spacing="100.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="150.0">
+               <children>
+                  <ImageView fitHeight="100.0" fitWidth="100.0">
+                     <image>
+                        <Image url="@../images/resources/stone.png" />
+                     </image>
+                  </ImageView>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="minusStoneBtn" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" styleClass="btn-bg-square" text="-" />
+                        <TextField fx:id="amountStone" alignment="CENTER" editable="false" prefHeight="35.2" prefWidth="80.0" text="0" />
+                        <Button fx:id="plusStoneBtn" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" styleClass="btn-bg-square" text="+" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="150.0">
+               <children>
+                  <ImageView fitHeight="80.0" fitWidth="100.0">
+                     <image>
+                        <Image url="@../images/resources/coin.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="10.0" top="10.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="minusCoinBtn" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" styleClass="btn-bg-square" text="-" />
+                        <TextField fx:id="amountCoin" alignment="CENTER" editable="false" prefHeight="35.2" prefWidth="80.0" text="0" />
+                        <Button fx:id="plusCoinBtn" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" styleClass="btn-bg-square" text="+" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

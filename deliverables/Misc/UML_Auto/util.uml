@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>it.polimi.ingsw.util</OriginalElement>
+  <nodes>
+    <node x="36.0" y="0.0">it.polimi.ingsw.util.Observer</node>
+    <node x="0.0" y="105.0">it.polimi.ingsw.util.Observable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="it.polimi.ingsw.util.Observable" target="it.polimi.ingsw.util.Observer" relationship="DEPENDENCY">
+      <point x="65.25" y="-61.0" />
+      <point x="195.75" y="80.0" />
+      <point x="177.75" y="80.0" />
+      <point x="47.25" y="27.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.util.Observable" target="it.polimi.ingsw.util.Observer" relationship="TO_MANY">
+      <point x="-65.25" y="-61.0" />
+      <point x="65.25" y="80.0" />
+      <point x="83.25" y="80.0" />
+      <point x="-47.25" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="71.0" y="52.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

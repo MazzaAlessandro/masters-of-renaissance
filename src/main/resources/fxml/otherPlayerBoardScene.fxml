@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="boardPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="613.0" prefWidth="1080.0" styleClass="boardBg" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER" layoutX="847.0" layoutY="-1.0" prefHeight="614.0" prefWidth="233.0" spacing="20.0" AnchorPane.rightAnchor="-28.0">
+         <children>
+            <Button fx:id="leadersBtn" mnemonicParsing="false" styleClass="btn-md" text="Show Leaders" />
+            <Button fx:id="backBtn" mnemonicParsing="false" styleClass="btn-md" text="Back" />
+         </children>
+      </VBox>
+      <ImageView fx:id="redCross" fitHeight="57.0" fitWidth="40.0" layoutX="33.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/board/redCross.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="30.0" layoutY="255.0" prefHeight="172.0" prefWidth="153.0" spacing="14.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <ImageView fx:id="depot11" fitHeight="40.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <ImageView fx:id="depot21" fitHeight="40.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="depot22" fitHeight="40.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <ImageView fx:id="depot31" fitHeight="40.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="depot32" fitHeight="40.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="depot33" fitHeight="40.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </HBox>
+            <Label fx:id="eDepotsLbl" styleClass="label-light" text="Extra Depots" textFill="WHITE" visible="false" />
+            <HBox alignment="CENTER" prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <ImageView fx:id="eDepot1" fitHeight="30.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="eDepot2" fitHeight="30.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="eDepot3" fitHeight="30.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="eDepot4" fitHeight="30.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+         <ImageView fx:id="dev3slot1" fitHeight="240.0" fitWidth="160.0" pickOnBounds="true" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="325.0" />
+         <ImageView fx:id="dev2slot1" fitHeight="240.0" fitWidth="160.0" pickOnBounds="true" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="325.0" />
+         <ImageView fx:id="dev1slot1" fitHeight="240.0" fitWidth="160.0" pickOnBounds="true" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="325.0" />
+      <ImageView fx:id="dev3slot2" fitHeight="240.0" fitWidth="160.0" pickOnBounds="true" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="492.0" />
+      <ImageView fx:id="dev2slot2" fitHeight="240.0" fitWidth="160.0" pickOnBounds="true" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="492.0" />
+      <ImageView fx:id="dev1slot2" fitHeight="240.0" fitWidth="160.0" pickOnBounds="true" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="492.0" />
+      <ImageView fx:id="dev3slot3" fitHeight="240.0" fitWidth="160.0" pickOnBounds="true" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="660.0" />
+      <ImageView fx:id="dev2slot3" fitHeight="240.0" fitWidth="160.0" pickOnBounds="true" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="660.0" />
+      <ImageView fx:id="dev1slot3" fitHeight="240.0" fitWidth="160.0" pickOnBounds="true" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="660.0" />
+      <VBox prefHeight="100.0" prefWidth="200.0" spacing="10.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="18.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="40.0" prefWidth="200.0" spacing="5.0">
+               <children>
+                  <ImageView fitHeight="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/resources/shield.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="strongShieldLbl" styleClass="label-light" text="x0" textFill="WHITE">
+                     <padding>
+                        <Insets right="10.0" />
+                     </padding>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/resources/servant.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="strongServantLbl" styleClass="label-light" text="x0" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="40.0" prefWidth="200.0" spacing="5.0">
+               <children>
+                  <ImageView fitHeight="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/resources/stone.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="strongStoneLbl" styleClass="label-light" text="x0" textFill="WHITE">
+                     <padding>
+                        <Insets right="10.0" />
+                     </padding>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/resources/coin.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="strongCoinLbl" styleClass="label-light" text="x0" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <ImageView fx:id="vaticanReport2" fitHeight="61.0" fitWidth="61.0" layoutX="210.0" layoutY="88.0">
+         <image>
+            <Image url="@../images/board/vaticanReport2-false.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="vaticanReport3" fitHeight="61.0" fitWidth="61.0" layoutX="421.0" layoutY="45.0">
+         <image>
+            <Image url="@../images/board/vaticanReport3-false.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="vaticanReport4" fitHeight="61.0" fitWidth="61.0" layoutX="673.0" layoutY="89.0">
+         <image>
+            <Image url="@../images/board/vaticanReport4-false.png" />
+         </image>
+      </ImageView>
+
+   </children>
+</AnchorPane>

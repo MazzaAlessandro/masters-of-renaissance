@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>it.polimi.ingsw.network</OriginalElement>
+  <nodes>
+    <node x="14040.0" y="1490.0">it.polimi.ingsw.network.message.reply.ShowDevCardTrayReply</node>
+    <node x="8166.5" y="608.0">it.polimi.ingsw.network.message.request.MarketDepotsRequest</node>
+    <node x="14568.5" y="1570.0">it.polimi.ingsw.network.message.reply.MarketDepotsReply</node>
+    <node x="8646.5" y="612.5">it.polimi.ingsw.network.message.request.VaticanReportRequest</node>
+    <node x="4074.0" y="590.0">it.polimi.ingsw.network.message.request.StartingDiscardLeaderRequest</node>
+    <node x="14845.0" y="1170.0">it.polimi.ingsw.network.message.reply.LeaderProductionReply</node>
+    <node x="1276.5" y="2972.0">it.polimi.ingsw.network.message.Type</node>
+    <node x="16000.0" y="1248.0">it.polimi.ingsw.network.message.reply.ShowLorenzoFaithTrackReply</node>
+    <node x="708.0" y="570.0">it.polimi.ingsw.network.message.reply.BuyDevInTrayPositionReply</node>
+    <node x="8599.5" y="3722.0">it.polimi.ingsw.network.client.ClientMultiThread</node>
+    <node x="3069.0" y="592.5">it.polimi.ingsw.network.message.request.ShowLeadersRequest</node>
+    <node x="15481.0" y="968.0">it.polimi.ingsw.network.message.reply.ShowFaithTrackReply</node>
+    <node x="1020.5" y="570.0">it.polimi.ingsw.network.message.request.DiscardLeadersRequest</node>
+    <node x="10581.5" y="630.0">it.polimi.ingsw.network.message.request.ShowOtherDevCardBoardSlotsRequest</node>
+    <node x="8424.0" y="610.0">it.polimi.ingsw.network.message.request.EndGameRequest</node>
+    <node x="8396.0" y="4640.0">it.polimi.ingsw.network.server.ClientHandlerMonoGame</node>
+    <node x="11300.0" y="632.5">it.polimi.ingsw.network.message.request.LoginRequest</node>
+    <node x="12001.0" y="628.0">it.polimi.ingsw.network.message.request.MarketLeadersRequest</node>
+    <node x="4743.5" y="592.5">it.polimi.ingsw.network.message.request.ShowDevCardBoardSlotsRequest</node>
+    <node x="3332.0" y="592.5">it.polimi.ingsw.network.message.reply.IsYourTurnReply</node>
+    <node x="12642.0" y="2408.0">it.polimi.ingsw.network.message.reply.ShowOwnedResourcesReply</node>
+    <node x="6966.5" y="610.0">it.polimi.ingsw.network.message.request.InitializeGameRequest</node>
+    <node x="12269.0" y="88.0">it.polimi.ingsw.network.message.reply.ShowOtherFaithTrackReply</node>
+    <node x="8767.0" y="4218.0">it.polimi.ingsw.network.server.ClientHandlerMultiGame</node>
+    <node x="605.0" y="410.0">it.polimi.ingsw.network.message.reply.AlertReply</node>
+    <node x="5343.5" y="590.0">it.polimi.ingsw.network.message.request.DefaultProductionOutputRequest</node>
+    <node x="6333.5" y="592.5">it.polimi.ingsw.network.message.request.ShowOtherPlayerRequest</node>
+    <node x="13512.0" y="2108.0">it.polimi.ingsw.network.message.reply.StartingDiscardLeaderReply</node>
+    <node x="15104.0" y="1370.0">it.polimi.ingsw.network.message.reply.ShowOtherPlayerReply</node>
+    <node x="1272.0" y="3968.0">it.polimi.ingsw.network.message.reply.ShowLeadersReply</node>
+    <node x="13154.0" y="1966.0">it.polimi.ingsw.network.message.reply.ShowDevCardBoardSlotsReply</node>
+    <node x="13697.0" y="2486.0">it.polimi.ingsw.network.message.reply.ActivateProductionReply</node>
+    <node x="8189.0" y="3680.0">it.polimi.ingsw.network.server.ServerMultiGame</node>
+    <node x="9466.0" y="612.5">it.polimi.ingsw.network.message.request.ShowLeadersProductionRequest</node>
+    <node x="14376.5" y="2750.0">it.polimi.ingsw.network.message.reply.ShowLeadersProductionReply</node>
+    <node x="6637.5" y="610.0">it.polimi.ingsw.network.message.request.BuyDevInTrayPositionRequest</node>
+    <node x="8807.0" y="4622.0">it.polimi.ingsw.network.message.reply.WaitForYourTurnReply</node>
+    <node x="11490.0" y="630.0">it.polimi.ingsw.network.message.request.WaitingRoomRequest</node>
+    <node x="14885.5" y="2661.0">it.polimi.ingsw.network.client.ReplyBroker</node>
+    <node x="15580.0" y="588.0">it.polimi.ingsw.network.message.reply.ShowOtherOwnedResourcesReply</node>
+    <node x="7570.0" y="612.5">it.polimi.ingsw.network.message.request.ShowDevCardTrayRequest</node>
+    <node x="12534.0" y="1930.0">it.polimi.ingsw.network.message.reply.LoginReply</node>
+    <node x="8644.5" y="3486.0">it.polimi.ingsw.network.client.Client</node>
+    <node x="9026.0" y="4717.0">it.polimi.ingsw.network.message.reply.EndGameReply</node>
+    <node x="13900.0" y="1650.0">it.polimi.ingsw.network.message.reply.StartingResourcesReply</node>
+    <node x="15285.0" y="1090.0">it.polimi.ingsw.network.message.reply.DialogReply</node>
+    <node x="8807.0" y="4717.0">it.polimi.ingsw.network.message.reply.WaitingRoomReply</node>
+    <node x="7969.0" y="4468.0">it.polimi.ingsw.network.server.Server</node>
+    <node x="12317.5" y="388.0">it.polimi.ingsw.network.message.Message</node>
+    <node x="82.0" y="210.0">it.polimi.ingsw.network.message.reply.VaticanReportReply</node>
+    <node x="9203.5" y="610.0">it.polimi.ingsw.network.message.request.MarketPositionRequest</node>
+    <node x="8917.0" y="612.5">it.polimi.ingsw.network.message.request.ShowMarketTrayRequest</node>
+    <node x="6025.0" y="588.0">it.polimi.ingsw.network.message.request.LeaderProductionRequest</node>
+    <node x="11741.0" y="632.5">it.polimi.ingsw.network.message.request.ShowFaithTrackRequest</node>
+    <node x="14192.0" y="2308.0">it.polimi.ingsw.network.message.reply.ShowOtherLeadersReply</node>
+    <node x="9814.0" y="612.5">it.polimi.ingsw.network.message.reply.DefaultProductionOutputReply</node>
+    <node x="7869.5" y="610.0">it.polimi.ingsw.network.message.request.StartingResourcesRequest</node>
+    <node x="7728.5" y="4479.5">it.polimi.ingsw.network.server.ClientHandler</node>
+    <node x="3545.0" y="590.0">it.polimi.ingsw.network.message.request.BuyDevSlotPositionRequest</node>
+    <node x="7231.5" y="612.5">it.polimi.ingsw.network.message.request.ShowOwnedResourcesRequest</node>
+    <node x="1598.5" y="2370.0">it.polimi.ingsw.network.message.request.ActivateLeadersRequest</node>
+    <node x="8349.0" y="4215.0">it.polimi.ingsw.network.server.ServerMonoGame</node>
+    <node x="10146.5" y="610.0">it.polimi.ingsw.network.message.request.ShowOthersLeaderRequest</node>
+    <node x="16460.5" y="2628.0">it.polimi.ingsw.network.message.reply.MarketLeadersReply</node>
+    <node x="12772.0" y="1806.0">it.polimi.ingsw.network.message.reply.ShowOtherDevCardBoardSlotsReply</node>
+    <node x="8728.5" y="5027.5">it.polimi.ingsw.network.message.reply.WaitForOtherPlayersReply</node>
+    <node x="2058.5" y="570.0">it.polimi.ingsw.network.message.request.ShowOtherFaithTrackRequest</node>
+    <node x="345.5" y="288.0">it.polimi.ingsw.network.message.reply.MarketPositionReply</node>
+    <node x="2389.5" y="590.0">it.polimi.ingsw.network.message.request.ShowOtherOwnedResourcesRequest</node>
+    <node x="2775.5" y="592.5">it.polimi.ingsw.network.message.reply.BuyDevSlotPositionReply</node>
+    <node x="3849.5" y="592.5">it.polimi.ingsw.network.message.reply.TurnActionReply</node>
+    <node x="13332.0" y="2628.0">it.polimi.ingsw.network.message.reply.DiscardLeadersReply</node>
+    <node x="8220.5" y="3488.0">it.polimi.ingsw.network.server.Match</node>
+    <node x="5690.5" y="590.0">it.polimi.ingsw.network.message.request.DefaultProductionInputRequest</node>
+    <node x="10978.5" y="628.0">it.polimi.ingsw.network.message.request.ActivateProductionRequest</node>
+    <node x="15312.0" y="768.0">it.polimi.ingsw.network.message.reply.ActivateLeadersReply</node>
+    <node x="4409.5" y="592.5">it.polimi.ingsw.network.message.request.ShowLorenzoFaithTrackRequest</node>
+    <node x="5099.5" y="590.0">it.polimi.ingsw.network.message.request.TurnActionRequest</node>
+    <node x="10456.5" y="605.0">it.polimi.ingsw.network.message.request.Ping</node>
+    <node x="1741.0" y="2272.5">it.polimi.ingsw.network.message.reply.DefaultProductionInputReply</node>
+    <node x="885.5" y="2788.0">it.polimi.ingsw.network.message.reply.ShowMarketTrayReply</node>
+    <node x="8728.5" y="5122.5">it.polimi.ingsw.network.message.reply.InitializeGameReply</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="it.polimi.ingsw.network.message.reply.MarketLeadersReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-72.0" />
+      <point x="16580.0" y="450.0" />
+      <point x="82.5" y="-10.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.VaticanReportRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="27.5" />
+      <point x="8760.0" y="3172.78124029392" />
+      <point x="143.5" y="-267.21875970608016" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ActivateLeadersRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="1720.0" y="426.2666666666667" />
+      <point x="-82.5" y="-33.73333333333329" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowDevCardTrayReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="14160.0" y="3349.468770798743" />
+      <point x="143.5" y="-90.53122920125679" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.MarketDepotsReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="14700.0" y="3373.562524958492" />
+      <point x="143.5" y="-66.43747504150815" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.StartingDiscardLeaderReply" relationship="DEPENDENCY">
+      <point x="-25.0" y="-39.0" />
+      <point x="14955.0" y="2180.0" />
+      <point x="148.0" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.TurnActionRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="5200.0" y="3076.4062236549253" />
+      <point x="143.5" y="-363.59377634507473" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.BuyDevSlotPositionRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="3680.0" y="445.24444444444447" />
+      <point x="-82.5" y="-14.755555555555532" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="10.0" y="39.0" />
+      <point x="14990.0" y="3381.5937763450747" />
+      <point x="143.5" y="-58.40622365492527" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.ShowMarketTrayReply" relationship="DEPENDENCY">
+      <point x="-10.0" y="39.0" />
+      <point x="14970.0" y="2942.0" />
+      <point x="190.0" y="2942.0" />
+      <point x="190.0" y="2860.0" />
+      <point x="-114.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.EndGameRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="8520.0" y="3164.749988907337" />
+      <point x="143.5" y="-275.25001109266304" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.InitializeGameReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="103.0" y="0.0" />
+      <point x="12379.375" y="5137.5" />
+      <point x="-20.625" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ServerMultiGame" target="it.polimi.ingsw.network.server.ClientHandlerMultiGame" relationship="CREATE">
+      <point x="11.0" y="160.0" />
+      <point x="8371.0" y="4097.5" />
+      <point x="8910.0" y="4097.5" />
+      <point x="10.0" y="-182.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.WaitForYourTurnReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="112.0" y="-5.0" />
+      <point x="9205.5" y="4644.5" />
+      <point x="9205.5" y="3453.8750388243207" />
+      <point x="143.5" y="13.875038824320654" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.LoginReply" relationship="DEPENDENCY">
+      <point x="5.0" y="-39.0" />
+      <point x="14985.0" y="1804.0" />
+      <point x="12620.0" y="1804.0" />
+      <point x="0.0" y="-50.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.WaitForOtherPlayersReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-129.0" y="0.0" />
+      <point x="3333.75" y="5055.0" />
+      <point x="3333.75" y="3697.000044370652" />
+      <point x="143.5" y="257.0000443706522" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.ShowOtherOwnedResourcesReply" relationship="DEPENDENCY">
+      <point x="94.5" y="-6.5" />
+      <point x="15740.0" y="2693.5" />
+      <point x="-0.0" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowOtherOwnedResourcesRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="2560.0" y="3004.1249611756793" />
+      <point x="143.5" y="-435.87503882432065" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ActivateLeadersReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-148.0" y="0.0" />
+      <point x="12477.34375" y="840.0" />
+      <point x="77.34375" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowOtherPlayerReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="116.0" y="0.0" />
+      <point x="16709.5" y="1420.0" />
+      <point x="16709.5" y="3397.6562791182405" />
+      <point x="143.5" y="-42.34372088175951" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.LeaderProductionRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-72.0" />
+      <point x="6160.0" y="466.93333333333334" />
+      <point x="-82.5" y="6.933333333333337" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.StartingResourcesReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-120.0" y="0.0" />
+      <point x="12430.9375" y="1700.0" />
+      <point x="30.9375" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowOtherLeadersReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-148.0" y="0.0" />
+      <point x="12405.15625" y="2380.0" />
+      <point x="5.15625" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMultiGame" target="it.polimi.ingsw.network.message.reply.InitializeGameReply" relationship="CREATE">
+      <point x="-133.0" y="0.0" />
+      <point x="8726.5" y="4400.0" />
+      <point x="8726.5" y="5132.5" />
+      <point x="-103.0" y="-5.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMultiGame" target="it.polimi.ingsw.network.message.request.WaitingRoomRequest" relationship="DEPENDENCY">
+      <point x="133.0" y="-15.0" />
+      <point x="11605.0" y="4385.0" />
+      <point x="5.0" y="50.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.BuyDevInTrayPositionReply" relationship="DEPENDENCY">
+      <point x="-0.0" y="39.0" />
+      <point x="14980.0" y="2952.0" />
+      <point x="180.0" y="2952.0" />
+      <point x="180.0" y="620.0" />
+      <point x="-132.0" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.DiscardLeadersReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="72.0" />
+      <point x="13480.0" y="3317.3437652524117" />
+      <point x="143.5" y="-122.65623474758831" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.DiscardLeadersRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="1140.0" y="420.8444444444445" />
+      <point x="-82.5" y="-39.15555555555551" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ServerMultiGame" target="it.polimi.ingsw.network.server.ClientHandler" relationship="TO_MANY">
+      <point x="-171.0" y="0.0" />
+      <point x="7805.0" y="3840.0" />
+      <point x="-15.0" y="-60.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMultiGame" target="it.polimi.ingsw.network.server.ServerMultiGame" relationship="DEPENDENCY">
+      <point x="-0.0" y="-182.0" />
+      <point x="8900.0" y="4107.5" />
+      <point x="8361.0" y="4107.5" />
+      <point x="1.0" y="160.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowOtherDevCardBoardSlotsReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="94.0" />
+      <point x="12940.0" y="3301.281262479246" />
+      <point x="143.5" y="-138.71873752075408" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.MarketDepotsRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-72.0" />
+      <point x="8280.0" y="491.3333333333333" />
+      <point x="-82.5" y="31.333333333333314" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowOthersLeaderRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="10280.0" y="510.3111111111111" />
+      <point x="-82.5" y="50.311111111111074" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.DialogReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="75.0" y="0.0" />
+      <point x="16739.5" y="1140.0" />
+      <point x="16739.5" y="3421.750033277989" />
+      <point x="143.5" y="-18.249966722010868" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.AlertReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="75.0" y="-47.288888888888835" />
+      <point x="-82.5" y="-47.288888888888835" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMultiGame" target="it.polimi.ingsw.network.message.reply.AlertReply" relationship="CREATE">
+      <point x="-133.0" y="41.5" />
+      <point x="656.5" y="4441.5" />
+      <point x="-23.5" y="50.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMonoGame" target="it.polimi.ingsw.network.server.Server" relationship="TO_ONE">
+      <point x="-5.0" y="-160.0" />
+      <point x="8515.0" y="4550.0" />
+      <point x="171.0" y="10.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.TurnActionReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-27.5" />
+      <point x="3940.0" y="447.9555555555556" />
+      <point x="-82.5" y="-12.044444444444423" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ActivateProductionReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-143.0" y="0.0" />
+      <point x="12394.84375" y="2580.0" />
+      <point x="-5.15625" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.DefaultProductionInputRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="5840.0" y="3092.468726428091" />
+      <point x="143.5" y="-347.53127357190897" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowLeadersProductionReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="14520.0" y="3365.531273571909" />
+      <point x="143.5" y="-74.46872642809103" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.WaitingRoomReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="5.0" y="-27.5" />
+      <point x="8911.5" y="4679.0" />
+      <point x="12358.75" y="4679.0" />
+      <point x="-41.25" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.BuyDevInTrayPositionRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="6780.0" y="3116.5624805878397" />
+      <point x="143.5" y="-323.4375194121603" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMultiGame" target="it.polimi.ingsw.network.message.reply.WaitingRoomReply" relationship="CREATE">
+      <point x="-108.0" y="182.0" />
+      <point x="8792.0" y="4679.0" />
+      <point x="8901.5" y="4679.0" />
+      <point x="-5.0" y="-27.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.Message" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-77.34375" y="72.0" />
+      <point x="12322.65625" y="3277.1875083194973" />
+      <point x="143.5" y="-162.81249168050272" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMultiGame" target="it.polimi.ingsw.network.server.ClientHandler" relationship="REALIZATION">
+      <point x="-133.0" y="51.5" />
+      <point x="7835.0" y="4451.5" />
+      <point x="15.0" y="-60.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMonoGame" target="it.polimi.ingsw.network.message.reply.WaitForOtherPlayersReply" relationship="CREATE">
+      <point x="124.0" y="71.0" />
+      <point x="8857.5" y="4871.0" />
+      <point x="-0.0" y="-27.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.StartingResourcesRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="8000.0" y="485.9111111111111" />
+      <point x="-82.5" y="25.911111111111097" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowOtherOwnedResourcesReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-72.0" />
+      <point x="15740.0" y="460.0" />
+      <point x="82.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowLeadersReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="0.0" y="-72.0" />
+      <point x="0.0" y="468.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.MarketPositionReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="114.5" y="0.0" />
+      <point x="12390.0" y="360.0" />
+      <point x="-10.0" y="-72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.ShowLorenzoFaithTrackReply" relationship="DEPENDENCY">
+      <point x="94.5" y="0.0" />
+      <point x="16140.0" y="2700.0" />
+      <point x="-0.0" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ServerMonoGame" target="it.polimi.ingsw.network.server.ClientHandlerMonoGame" relationship="TO_MANY">
+      <point x="171.0" y="0.0" />
+      <point x="8730.5" y="4320.0" />
+      <point x="8730.5" y="4780.0" />
+      <point x="124.0" y="-20.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowFaithTrackReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="119.0" y="0.0" />
+      <point x="16749.5" y="1040.0" />
+      <point x="16749.5" y="3429.781284664572" />
+      <point x="143.5" y="-10.218715335427987" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ServerMultiGame" target="it.polimi.ingsw.network.message.Message" relationship="DEPENDENCY">
+      <point x="171.0" y="-120.0" />
+      <point x="12332.96875" y="3720.0" />
+      <point x="-67.03125" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowOtherDevCardBoardSlotsReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-168.0" y="0.0" />
+      <point x="12425.78125" y="1900.0" />
+      <point x="25.78125" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.DefaultProductionOutputRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="5500.0" y="461.5111111111111" />
+      <point x="-82.5" y="1.51111111111112" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.StartingDiscardLeaderRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="4220.0" y="3052.3124694951766" />
+      <point x="143.5" y="-387.68753050482337" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.IsYourTurnReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="27.5" />
+      <point x="3420.0" y="3028.218715335428" />
+      <point x="143.5" y="-411.781284664572" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.InitializeGameRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="7080.0" y="3124.5937319744226" />
+      <point x="143.5" y="-315.40626802557745" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.ShowFaithTrackReply" relationship="DEPENDENCY">
+      <point x="94.5" y="-13.0" />
+      <point x="15600.0" y="2687.0" />
+      <point x="-0.0" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMultiGame" target="it.polimi.ingsw.network.message.Message" relationship="DEPENDENCY">
+      <point x="133.0" y="-5.0" />
+      <point x="12348.4375" y="4395.0" />
+      <point x="-51.5625" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.MarketLeadersReply" relationship="DEPENDENCY">
+      <point x="94.5" y="32.5" />
+      <point x="-119.5" y="32.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.DiscardLeadersRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="119.5" y="0.0" />
+      <point x="1420.0" y="620.0" />
+      <point x="0.0" y="-468.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMultiGame" target="it.polimi.ingsw.network.server.Server" relationship="DEPENDENCY">
+      <point x="-133.0" y="130.0" />
+      <point x="171.0" y="-10.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ClientMultiThread" target="it.polimi.ingsw.network.client.Client" relationship="REALIZATION">
+      <point x="0.0" y="-138.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.WaitForYourTurnReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="112.0" y="5.0" />
+      <point x="12353.59375" y="4654.5" />
+      <point x="-46.40625" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.LoginReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-86.0" y="0.0" />
+      <point x="12420.625" y="1980.0" />
+      <point x="20.625" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.Server" target="it.polimi.ingsw.network.message.Message" relationship="DEPENDENCY">
+      <point x="8.5" y="-72.0" />
+      <point x="8148.5" y="488.6222222222222" />
+      <point x="-82.5" y="28.622222222222206" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowOtherPlayerRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="27.5" />
+      <point x="6460.0" y="3108.531229201257" />
+      <point x="143.5" y="-331.4687707987432" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.TurnActionRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="5200.0" y="458.8" />
+      <point x="-82.5" y="-1.1999999999999886" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowOwnedResourcesReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="72.0" />
+      <point x="12780.0" y="3293.250011092663" />
+      <point x="143.5" y="-146.74998890733696" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowLorenzoFaithTrackRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="27.5" />
+      <point x="4560.0" y="3060.3437208817595" />
+      <point x="143.5" y="-379.6562791182405" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.DialogReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-75.0" y="0.0" />
+      <point x="12456.71875" y="1140.0" />
+      <point x="56.71875" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMonoGame" target="it.polimi.ingsw.network.server.Server" relationship="DEPENDENCY">
+      <point x="-124.0" y="-10.0" />
+      <point x="8140.0" y="4790.0" />
+      <point x="-0.0" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.Server" target="it.polimi.ingsw.network.server.ClientHandler" relationship="DEPENDENCY">
+      <point x="-171.0" y="0.0" />
+      <point x="91.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.ShowOwnedResourcesReply" relationship="DEPENDENCY">
+      <point x="-35.0" y="-39.0" />
+      <point x="14945.0" y="2306.0" />
+      <point x="12780.0" y="2306.0" />
+      <point x="0.0" y="-72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ActivateProductionRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="72.0" />
+      <point x="11120.0" y="3237.031251386583" />
+      <point x="143.5" y="-202.96874861341712" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowMarketTrayRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="27.5" />
+      <point x="9040.0" y="3180.8124916805027" />
+      <point x="143.5" y="-259.1875083194973" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.MarketLeadersReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="72.0" />
+      <point x="16580.0" y="3389.6250277316576" />
+      <point x="143.5" y="-50.37497226834239" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.StartingResourcesReply" relationship="DEPENDENCY">
+      <point x="15.0" y="-39.0" />
+      <point x="14995.0" y="1700.0" />
+      <point x="120.0" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMultiGame" target="it.polimi.ingsw.network.message.request.EndGameRequest" relationship="DEPENDENCY">
+      <point x="86.75" y="-182.0" />
+      <point x="8986.75" y="669.5" />
+      <point x="96.0" y="9.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ServerMonoGame" target="it.polimi.ingsw.network.server.Server" relationship="REALIZATION">
+      <point x="-171.0" y="5.0" />
+      <point x="8225.75" y="4325.0" />
+      <point x="85.75" y="-72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowLeadersReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-148.0" y="0.0" />
+      <point x="62.0" y="4040.0" />
+      <point x="62.0" y="2250.0" />
+      <point x="12484.5" y="2250.0" />
+      <point x="12484.5" y="470.0" />
+      <point x="82.5" y="10.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.StartingResourcesReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="14020.0" y="3341.4375194121603" />
+      <point x="143.5" y="-98.56248058783967" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ClientMultiThread" target="it.polimi.ingsw.network.message.Message" relationship="DEPENDENCY">
+      <point x="160.5" y="5.0" />
+      <point x="12338.125" y="3865.0" />
+      <point x="-61.875" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.AlertReply" relationship="DEPENDENCY">
+      <point x="94.5" y="13.0" />
+      <point x="16300.0" y="2713.0" />
+      <point x="16300.0" y="78.0" />
+      <point x="680.0" y="78.0" />
+      <point x="-0.0" y="-50.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ServerMonoGame" target="it.polimi.ingsw.network.server.ClientHandlerMonoGame" relationship="CREATE">
+      <point x="5.0" y="105.0" />
+      <point x="5.0" y="-160.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.StartingResourcesRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="8000.0" y="3148.687486134171" />
+      <point x="143.5" y="-291.3125138658288" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.WaitForOtherPlayersReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="129.0" y="0.0" />
+      <point x="12374.21875" y="5055.0" />
+      <point x="-25.78125" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowOtherOwnedResourcesRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="2560.0" y="434.40000000000003" />
+      <point x="-82.5" y="-25.599999999999966" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.ActivateProductionReply" relationship="DEPENDENCY">
+      <point x="-55.0" y="-39.0" />
+      <point x="14925.0" y="2580.0" />
+      <point x="143.0" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.Server" target="it.polimi.ingsw.network.client.ClientMultiThread" relationship="DEPENDENCY">
+      <point x="171.0" y="-20.0" />
+      <point x="8760.0" y="4520.0" />
+      <point x="-0.0" y="138.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.EndGameReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="85.5" y="0.0" />
+      <point x="12363.90625" y="4744.5" />
+      <point x="-36.09375" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.AlertReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-13.5" y="50.0" />
+      <point x="666.5" y="3430.0" />
+      <point x="-143.5" y="-10.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.StartingDiscardLeaderReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="72.0" />
+      <point x="13660.0" y="3325.3750166389946" />
+      <point x="143.5" y="-114.62498336100543" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ActivateProductionReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="94.0" />
+      <point x="13840.0" y="3333.4062680255774" />
+      <point x="143.5" y="-106.59373197442255" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowLorenzoFaithTrackReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="0.0" y="-72.0" />
+      <point x="16140.0" y="914.0" />
+      <point x="12472.1875" y="914.0" />
+      <point x="72.1875" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.VaticanReportReply" relationship="DEPENDENCY">
+      <point x="94.5" y="26.0" />
+      <point x="16320.0" y="2726.0" />
+      <point x="16320.0" y="58.0" />
+      <point x="200.0" y="58.0" />
+      <point x="-0.0" y="-50.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ServerMultiGame" target="it.polimi.ingsw.network.server.ClientHandler" relationship="DEPENDENCY">
+      <point x="-171.0" y="10.0" />
+      <point x="7815.0" y="3850.0" />
+      <point x="-5.0" y="-60.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowDevCardTrayRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="27.5" />
+      <point x="7700.0" y="3140.6562347475883" />
+      <point x="143.5" y="-299.3437652524117" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.VaticanReportReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="200.0" y="3450.0" />
+      <point x="-143.5" y="10.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.ShowDevCardTrayReply" relationship="DEPENDENCY">
+      <point x="35.0" y="-39.0" />
+      <point x="15015.0" y="1540.0" />
+      <point x="120.0" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowFaithTrackReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-119.0" y="0.0" />
+      <point x="12467.03125" y="1040.0" />
+      <point x="67.03125" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMultiGame" target="it.polimi.ingsw.network.server.ServerMultiGame" relationship="TO_ONE">
+      <point x="-10.0" y="-182.0" />
+      <point x="8890.0" y="4117.5" />
+      <point x="8351.0" y="4117.5" />
+      <point x="-9.0" y="160.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowDevCardBoardSlotsReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-146.0" y="0.0" />
+      <point x="12415.46875" y="2060.0" />
+      <point x="15.46875" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ServerMultiGame" target="it.polimi.ingsw.network.server.Match" relationship="TO_MANY">
+      <point x="0.0" y="-160.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowDevCardBoardSlotsRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-27.5" />
+      <point x="4900.0" y="456.0888888888889" />
+      <point x="-82.5" y="-3.911111111111097" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ServerMultiGame" target="it.polimi.ingsw.network.server.Match" relationship="DEPENDENCY">
+      <point x="-171.0" y="-10.0" />
+      <point x="7526.5" y="3830.0" />
+      <point x="7526.5" y="3560.0" />
+      <point x="-139.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowOtherOwnedResourcesReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="160.0" y="0.0" />
+      <point x="16769.5" y="660.0" />
+      <point x="16769.5" y="3445.843787437738" />
+      <point x="143.5" y="5.843787437737774" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowOtherPlayerRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-27.5" />
+      <point x="6460.0" y="469.64444444444445" />
+      <point x="-82.5" y="9.644444444444446" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.ShowOtherDevCardBoardSlotsReply" relationship="DEPENDENCY">
+      <point x="-5.0" y="-39.0" />
+      <point x="14975.0" y="1900.0" />
+      <point x="168.0" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.LoginReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-42.0" y="50.0" />
+      <point x="12578.0" y="3285.21875970608" />
+      <point x="143.5" y="-154.78124029391984" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.Ping" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-15.0" />
+      <point x="10500.0" y="513.0222222222221" />
+      <point x="-82.5" y="53.022222222222126" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMonoGame" target="it.polimi.ingsw.network.message.reply.InitializeGameReply" relationship="CREATE">
+      <point x="124.0" y="81.0" />
+      <point x="8689.0" y="4881.0" />
+      <point x="8689.0" y="5084.5" />
+      <point x="8831.5" y="5084.5" />
+      <point x="-0.0" y="-15.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowDevCardTrayRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-27.5" />
+      <point x="7700.0" y="480.4888888888889" />
+      <point x="-82.5" y="20.48888888888888" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.DiscardLeadersReply" relationship="DEPENDENCY">
+      <point x="-94.5" y="0.0" />
+      <point x="148.0" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.DefaultProductionInputRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="5840.0" y="464.22222222222223" />
+      <point x="-82.5" y="4.2222222222222285" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.BuyDevInTrayPositionRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="6780.0" y="472.35555555555555" />
+      <point x="-82.5" y="12.355555555555554" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.Message" target="it.polimi.ingsw.network.message.Type" relationship="TO_ONE">
+      <point x="-82.5" y="-36.4444444444444" />
+      <point x="1430.0" y="423.5555555555556" />
+      <point x="10.0" y="-468.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.DefaultProductionOutputRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="5500.0" y="3084.437475041508" />
+      <point x="143.5" y="-355.56252495849185" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.MarketDepotsReply" relationship="DEPENDENCY">
+      <point x="25.0" y="-39.0" />
+      <point x="15005.0" y="1620.0" />
+      <point x="131.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowMarketTrayReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="114.5" y="0.0" />
+      <point x="1410.0" y="2860.0" />
+      <point x="-10.0" y="-468.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.DefaultProductionInputReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="27.5" />
+      <point x="1880.0" y="2988.0624584025136" />
+      <point x="143.5" y="-451.9375415974864" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.MarketLeadersRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="72.0" />
+      <point x="12140.0" y="3269.1562569329144" />
+      <point x="143.5" y="-170.8437430670856" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowLeadersRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-27.5" />
+      <point x="3180.0" y="439.82222222222225" />
+      <point x="-82.5" y="-20.17777777777775" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.BuyDevInTrayPositionReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="840.0" y="3420.0" />
+      <point x="-143.5" y="-20.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMultiGame" target="it.polimi.ingsw.network.server.Match" relationship="CREATE">
+      <point x="66.75" y="-182.0" />
+      <point x="8966.75" y="3484.0" />
+      <point x="8360.0" y="3484.0" />
+      <point x="0.0" y="-72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.ShowOtherPlayerReply" relationship="DEPENDENCY">
+      <point x="94.5" y="-32.5" />
+      <point x="15220.0" y="2667.5" />
+      <point x="-0.0" y="50.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.BuyDevSlotPositionReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-27.5" />
+      <point x="2900.0" y="437.11111111111114" />
+      <point x="-82.5" y="-22.888888888888857" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowOthersLeaderRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="10280.0" y="3212.9374972268342" />
+      <point x="143.5" y="-227.06250277316576" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowOwnedResourcesReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-138.0" y="0.0" />
+      <point x="12400.0" y="2480.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.MarketPositionRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="9320.0" y="502.17777777777775" />
+      <point x="-82.5" y="42.17777777777775" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.EndGameReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="7.5" y="-27.5" />
+      <point x="9119.0" y="3461.9062902109035" />
+      <point x="143.5" y="21.906290210903535" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowOtherFaithTrackRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="2200.0" y="431.6888888888889" />
+      <point x="-82.5" y="-28.311111111111074" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.ShowLeadersProductionReply" relationship="DEPENDENCY">
+      <point x="-20.0" y="39.0" />
+      <point x="14960.0" y="2800.0" />
+      <point x="143.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.ShowLeadersReply" relationship="DEPENDENCY">
+      <point x="20.0" y="39.0" />
+      <point x="15000.0" y="4040.0" />
+      <point x="148.0" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ActivateProductionRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-72.0" />
+      <point x="11120.0" y="518.4444444444443" />
+      <point x="-82.5" y="58.44444444444434" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.DefaultProductionOutputReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="27.5" />
+      <point x="9960.0" y="3204.9062458402514" />
+      <point x="143.5" y="-235.09375415974864" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMonoGame" target="it.polimi.ingsw.network.server.ClientHandler" relationship="REALIZATION">
+      <point x="0.0" y="160.0" />
+      <point x="8520.0" y="5154.5" />
+      <point x="7820.0" y="5154.5" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowFaithTrackRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="27.5" />
+      <point x="11860.0" y="3261.1250055463315" />
+      <point x="143.5" y="-178.87499445366848" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.DialogReply" relationship="DEPENDENCY">
+      <point x="94.5" y="-26.0" />
+      <point x="15380.5" y="2674.0" />
+      <point x="20.5" y="50.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowOwnedResourcesRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-27.5" />
+      <point x="7380.0" y="477.77777777777777" />
+      <point x="-82.5" y="17.77777777777777" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMonoGame" target="it.polimi.ingsw.network.message.reply.AlertReply" relationship="CREATE">
+      <point x="-124.0" y="10.0" />
+      <point x="646.5" y="4810.0" />
+      <point x="-33.5" y="50.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.IsYourTurnReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-27.5" />
+      <point x="3420.0" y="442.53333333333336" />
+      <point x="-82.5" y="-17.46666666666664" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.Message" relationship="DEPENDENCY">
+      <point x="45.0" y="-39.0" />
+      <point x="15025.0" y="1468.0" />
+      <point x="12441.25" y="1468.0" />
+      <point x="41.25" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.LeaderProductionReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-135.0" y="0.0" />
+      <point x="12451.5625" y="1220.0" />
+      <point x="51.5625" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.InitializeGameRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="7080.0" y="475.06666666666666" />
+      <point x="-82.5" y="15.066666666666663" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ActivateLeadersRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="1720.0" y="2980.0312070159307" />
+      <point x="143.5" y="-459.9687929840693" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.LoginRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="27.5" />
+      <point x="11380.0" y="3245.0625027731658" />
+      <point x="143.5" y="-194.93749722683424" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.EndGameRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="8520.0" y="494.0444444444444" />
+      <point x="-82.5" y="34.04444444444442" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.VaticanReportRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-27.5" />
+      <point x="8760.0" y="496.75555555555553" />
+      <point x="-82.5" y="36.75555555555553" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowLeadersProductionRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-27.5" />
+      <point x="9620.0" y="504.88888888888886" />
+      <point x="-82.5" y="44.88888888888886" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowOtherFaithTrackReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="10.0" y="72.0" />
+      <point x="10.0" y="-72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.WaitingRoomRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-5.0" y="50.0" />
+      <point x="11595.0" y="3253.0937541597486" />
+      <point x="143.5" y="-186.90624584025136" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.VaticanReportReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="118.0" y="0.0" />
+      <point x="12400.0" y="260.0" />
+      <point x="0.0" y="-72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ClientMultiThread" target="it.polimi.ingsw.network.message.request.Ping" relationship="CREATE">
+      <point x="160.5" y="-5.0" />
+      <point x="10505.0" y="3855.0" />
+      <point x="5.0" y="15.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowLorenzoFaithTrackReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="140.0" y="0.0" />
+      <point x="16719.5" y="1320.0" />
+      <point x="16719.5" y="3405.6875305048234" />
+      <point x="143.5" y="-34.31246949517663" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowOtherDevCardBoardSlotsRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="10760.0" y="515.7333333333333" />
+      <point x="-82.5" y="55.73333333333335" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowDevCardTrayReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-120.0" y="0.0" />
+      <point x="12436.09375" y="1540.0" />
+      <point x="36.09375" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.MarketDepotsRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="72.0" />
+      <point x="8280.0" y="3156.718737520754" />
+      <point x="143.5" y="-283.2812624792459" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.ShowDevCardBoardSlotsReply" relationship="DEPENDENCY">
+      <point x="-15.0" y="-39.0" />
+      <point x="14965.0" y="2060.0" />
+      <point x="146.0" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowOtherFaithTrackReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-131.0" y="0.0" />
+      <point x="72.0" y="160.0" />
+      <point x="72.0" y="3460.0" />
+      <point x="-143.5" y="20.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMonoGame" target="it.polimi.ingsw.network.message.reply.LoginReply" relationship="CREATE">
+      <point x="124.0" y="61.0" />
+      <point x="12598.0" y="4861.0" />
+      <point x="-22.0" y="50.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ServerMonoGame" target="it.polimi.ingsw.network.message.Message" relationship="DEPENDENCY">
+      <point x="171.0" y="-104.0" />
+      <point x="12343.28125" y="4216.0" />
+      <point x="-56.71875" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ActivateLeadersReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="148.0" y="0.0" />
+      <point x="16759.5" y="840.0" />
+      <point x="16759.5" y="3437.812536051155" />
+      <point x="143.5" y="-2.1874639488451066" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.InitializeGameReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-103.0" y="5.0" />
+      <point x="3323.75" y="5142.5" />
+      <point x="3323.75" y="3705.031295757235" />
+      <point x="143.5" y="265.03129575723506" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.StartingDiscardLeaderReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-148.0" y="0.0" />
+      <point x="12410.3125" y="2180.0" />
+      <point x="10.3125" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowLeadersRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="27.5" />
+      <point x="3180.0" y="3020.187463948845" />
+      <point x="143.5" y="-419.8125360511549" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.Client" target="it.polimi.ingsw.network.message.Message" relationship="DEPENDENCY">
+      <point x="115.5" y="0.0" />
+      <point x="12327.8125" y="3580.0" />
+      <point x="-72.1875" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMultiGame" target="it.polimi.ingsw.network.message.reply.WaitForYourTurnReply" relationship="CREATE">
+      <point x="19.0" y="182.0" />
+      <point x="0.0" y="-27.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMonoGame" target="it.polimi.ingsw.network.message.Message" relationship="DEPENDENCY">
+      <point x="124.0" y="51.0" />
+      <point x="12369.0625" y="4851.0" />
+      <point x="-30.9375" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ServerMultiGame" target="it.polimi.ingsw.network.server.Server" relationship="REALIZATION">
+      <point x="-169.0" y="160.0" />
+      <point x="51.0" y="-72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.DiscardLeadersReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-148.0" y="0.0" />
+      <point x="12389.6875" y="2700.0" />
+      <point x="-10.3125" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.MarketPositionReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="72.0" />
+      <point x="460.0" y="3440.0" />
+      <point x="-143.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.DefaultProductionInputReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-27.5" />
+      <point x="1880.0" y="428.9777777777778" />
+      <point x="-82.5" y="-31.022222222222183" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.LeaderProductionReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="135.0" y="0.0" />
+      <point x="16729.5" y="1220.0" />
+      <point x="16729.5" y="3413.7187818914063" />
+      <point x="143.5" y="-26.281218108593748" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ClientMultiThread" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="159.0" y="-138.0" />
+      <point x="8919.0" y="3477.9687929840693" />
+      <point x="143.5" y="37.968792984069296" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.BuyDevSlotPositionRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="3680.0" y="3036.249966722011" />
+      <point x="143.5" y="-403.75003327798913" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowMarketTrayReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-72.0" />
+      <point x="1000.0" y="418.1333333333334" />
+      <point x="-82.5" y="-41.86666666666662" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowOwnedResourcesRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="27.5" />
+      <point x="7380.0" y="3132.6249833610054" />
+      <point x="143.5" y="-307.37501663899457" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.ActivateLeadersReply" relationship="DEPENDENCY">
+      <point x="94.5" y="-19.5" />
+      <point x="15460.0" y="2680.5" />
+      <point x="-0.0" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMultiGame" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="76.75" y="-182.0" />
+      <point x="8976.75" y="3469.9375415974864" />
+      <point x="143.5" y="29.937541597486415" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowDevCardBoardSlotsReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="94.0" />
+      <point x="13300.0" y="3309.312513865829" />
+      <point x="143.5" y="-130.6874861341712" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.Ping" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-5.0" y="15.0" />
+      <point x="10495.0" y="3220.968748613417" />
+      <point x="143.5" y="-219.03125138658288" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.BuyDevInTrayPositionReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="840.0" y="415.4222222222223" />
+      <point x="-82.5" y="-44.577777777777726" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandler" target="it.polimi.ingsw.network.message.Message" relationship="DEPENDENCY">
+      <point x="12.0" y="-60.5" />
+      <point x="7832.0" y="483.2" />
+      <point x="-82.5" y="23.19999999999999" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.MarketDepotsReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="14700.0" y="1088.0" />
+      <point x="12461.875" y="1088.0" />
+      <point x="61.875" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMultiGame" target="it.polimi.ingsw.network.message.reply.EndGameReply" relationship="CREATE">
+      <point x="0.0" y="182.0" />
+      <point x="8900.0" y="4610.0" />
+      <point x="9109.0" y="4610.0" />
+      <point x="-2.5" y="-27.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.DefaultProductionOutputReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-27.5" />
+      <point x="9960.0" y="507.59999999999997" />
+      <point x="-82.5" y="47.599999999999966" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.MarketPositionRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="9320.0" y="3188.8437430670856" />
+      <point x="143.5" y="-251.1562569329144" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.MarketLeadersRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-72.0" />
+      <point x="12140.0" y="529.2888888888888" />
+      <point x="-82.5" y="69.28888888888878" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ServerMonoGame" target="it.polimi.ingsw.network.server.ClientHandler" relationship="DEPENDENCY">
+      <point x="-171.0" y="-5.0" />
+      <point x="7825.0" y="4315.0" />
+      <point x="5.0" y="-60.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMultiGame" target="it.polimi.ingsw.network.message.reply.DialogReply" relationship="CREATE">
+      <point x="133.0" y="15.0" />
+      <point x="15390.5" y="4415.0" />
+      <point x="30.5" y="50.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.ShowOtherLeadersReply" relationship="DEPENDENCY">
+      <point x="-45.0" y="-39.0" />
+      <point x="14935.0" y="2380.0" />
+      <point x="148.0" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.BuyDevSlotPositionReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="27.5" />
+      <point x="2900.0" y="3012.156212562262" />
+      <point x="143.5" y="-427.8437874377378" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowMarketTrayRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-27.5" />
+      <point x="9040.0" y="499.46666666666664" />
+      <point x="-82.5" y="39.46666666666664" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.WaitingRoomRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="11600.0" y="523.8666666666666" />
+      <point x="-82.5" y="63.86666666666656" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.Client" target="it.polimi.ingsw.network.client.ClientMultiThread" relationship="DEPENDENCY">
+      <point x="-115.5" y="0.0" />
+      <point x="8597.5" y="3580.0" />
+      <point x="8597.5" y="3860.0" />
+      <point x="-160.5" y="0.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.WaitingRoomReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="27.5" />
+      <point x="8906.5" y="4962.0" />
+      <point x="5101.5" y="4962.0" />
+      <point x="5101.5" y="3680.9375415974864" />
+      <point x="143.5" y="240.93754159748642" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowOtherLeadersReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="72.0" />
+      <point x="14340.0" y="3357.500022185326" />
+      <point x="143.5" y="-82.49997781467391" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowOtherPlayerReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-116.0" y="0.0" />
+      <point x="12446.40625" y="1420.0" />
+      <point x="46.40625" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.LeaderProductionRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="72.0" />
+      <point x="6160.0" y="3100.499977814674" />
+      <point x="143.5" y="-339.5000221853261" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowLorenzoFaithTrackRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-27.5" />
+      <point x="4560.0" y="453.3777777777778" />
+      <point x="-82.5" y="-6.622222222222206" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMultiGame" target="it.polimi.ingsw.network.message.reply.WaitForOtherPlayersReply" relationship="CREATE">
+      <point x="-118.0" y="182.0" />
+      <point x="-75.5" y="-27.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.ShowLeadersProductionReply" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-143.5" y="0.0" />
+      <point x="12384.53125" y="2800.0" />
+      <point x="-15.46875" y="72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowOtherFaithTrackRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="2200.0" y="2996.0937097890965" />
+      <point x="143.5" y="-443.90629021090353" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.reply.TurnActionReply" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="27.5" />
+      <point x="3940.0" y="3044.2812181085937" />
+      <point x="143.5" y="-395.71878189140625" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowFaithTrackRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-27.5" />
+      <point x="11860.0" y="526.5777777777778" />
+      <point x="-82.5" y="66.57777777777778" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.MarketPositionReply" relationship="DEPENDENCY">
+      <point x="94.5" y="19.5" />
+      <point x="16310.0" y="2719.5" />
+      <point x="16310.0" y="68.0" />
+      <point x="460.0" y="68.0" />
+      <point x="-0.0" y="-72.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowDevCardBoardSlotsRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="27.5" />
+      <point x="4900.0" y="3068.3749722683424" />
+      <point x="143.5" y="-371.6250277316576" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.StartingDiscardLeaderRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="4220.0" y="450.6666666666667" />
+      <point x="-82.5" y="-9.333333333333314" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMonoGame" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-124.0" y="0.0" />
+      <point x="3343.75" y="4800.0" />
+      <point x="3343.75" y="3688.9687929840693" />
+      <point x="143.5" y="248.9687929840693" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.LeaderProductionReply" relationship="DEPENDENCY">
+      <point x="55.0" y="-39.0" />
+      <point x="55.0" y="50.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.LoginRequest" target="it.polimi.ingsw.network.message.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-27.5" />
+      <point x="11380.0" y="521.1555555555556" />
+      <point x="-82.5" y="61.155555555555566" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.server.ClientHandlerMultiGame" target="it.polimi.ingsw.network.message.reply.LoginReply" relationship="CREATE">
+      <point x="133.0" y="5.0" />
+      <point x="12588.0" y="4405.0" />
+      <point x="-32.0" y="50.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowOtherDevCardBoardSlotsRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="50.0" />
+      <point x="10760.0" y="3229.0" />
+      <point x="143.5" y="-211.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.message.request.ShowLeadersProductionRequest" target="it.polimi.ingsw.network.message.Type" relationship="DEPENDENCY">
+      <point x="-0.0" y="27.5" />
+      <point x="9620.0" y="3196.8749944536685" />
+      <point x="143.5" y="-243.12500554633152" />
+    </edge>
+    <edge source="it.polimi.ingsw.network.client.ReplyBroker" target="it.polimi.ingsw.network.message.reply.ShowOtherFaithTrackReply" relationship="DEPENDENCY">
+      <point x="94.5" y="6.5" />
+      <point x="16290.0" y="2706.5" />
+      <point x="16290.0" y="160.0" />
+      <point x="131.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Compact" zoom="0.1" showDependencies="true" x="4987.0" y="3029.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="maxPlayerPane" prefHeight="600.0" prefWidth="600.0" styleClass="fancyBgPane" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.view.gui.sceneController.MaxPlayerController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" spacing="20.0" AnchorPane.bottomAnchor="0.0">
+         <children>
+            <Label styleClass="label-lg" text="Select a max player number" />
+            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="15.0">
+               <children>
+                  <Button fx:id="onePlayerBtn" mnemonicParsing="false" onAction="#maxPlayerUpdate" prefHeight="40.0" prefWidth="40.0" styleClass="btn-bg-square" text="1">
+                     <font>
+                        <Font size="20.0" />
+                     </font></Button>
+                  <Button fx:id="twoPlayerBtn" mnemonicParsing="false" onAction="#maxPlayerUpdate" styleClass="btn-bg-square" text="2" />
+                  <Button fx:id="threePlayerBtn" mnemonicParsing="false" onAction="#maxPlayerUpdate" styleClass="btn-bg-square" text="3" />
+                  <Button fx:id="fourPlayerBtn" mnemonicParsing="false" onAction="#maxPlayerUpdate" styleClass="btn-bg-square" text="4" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

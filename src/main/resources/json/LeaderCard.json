@@ -1,0 +1,313 @@
+[
+  {
+    "requiresType": "DEVELOPMENTCARDS",
+    "haveResources": null,
+    "haveDevCards": [
+      "YELLOW",
+      "GREEN"
+    ],
+    "haveDevCardOfColor": null,
+    "haveDevCardOfLevel": null,
+    "specialAbility": "DISCOUNT",
+    "specialAbilityColor": "PURPLE",
+    "specialAbilityProductionPower": null,
+    "victoryPoints": 2,
+    "face": "/images/cards/leaders/leader1.png"
+  },
+  {
+    "requiresType": "DEVELOPMENTCARDS",
+    "haveResources": null,
+    "haveDevCards": [
+      "BLUE",
+      "PURPLE"
+    ],
+    "haveDevCardOfColor": null,
+    "haveDevCardOfLevel": null,
+    "specialAbility": "DISCOUNT",
+    "specialAbilityColor": "BLUE",
+    "specialAbilityProductionPower": null,
+    "victoryPoints": 2,
+    "face": "/images/cards/leaders/leader2.png"
+
+  },
+  {
+    "requiresType": "DEVELOPMENTCARDS",
+    "haveResources": null,
+    "haveDevCards": [
+      "GREEN",
+      "BLUE"
+    ],
+    "haveDevCardOfColor": null,
+    "haveDevCardOfLevel": null,
+    "specialAbility": "DISCOUNT",
+    "specialAbilityColor": "GREY",
+    "specialAbilityProductionPower": null,
+    "victoryPoints": 2,
+    "face": "/images/cards/leaders/leader3.png"
+
+  },
+  {
+    "requiresType": "DEVELOPMENTCARDS",
+    "haveResources": null,
+    "haveDevCards": [
+      "YELLOW",
+      "PURPLE"
+    ],
+    "haveDevCardOfColor": null,
+    "haveDevCardOfLevel": null,
+    "specialAbility": "DISCOUNT",
+    "specialAbilityColor": "YELLOW",
+    "specialAbilityProductionPower": null,
+    "victoryPoints": 2,
+    "face": "/images/cards/leaders/leader4.png"
+
+  },
+  {
+    "requiresType": "RESOURCES",
+    "haveResources": {
+      "coins": 5,
+      "stones": 0,
+      "servants": 0,
+      "shields": 0
+    },
+    "haveDevCards": null,
+    "haveDevCardOfColor": null,
+    "haveDevCardOfLevel": null,
+    "specialAbility": "EXTRADEPOT",
+    "specialAbilityColor": "GREY",
+    "specialAbilityProductionPower": null,
+    "victoryPoints": 3,
+    "face": "/images/cards/leaders/leader5.png"
+
+  },
+  {
+    "requiresType": "RESOURCES",
+    "haveResources": {
+      "coins": 0,
+      "stones": 5,
+      "servants": 0,
+      "shields": 0
+    },
+    "haveDevCards": null,
+    "haveDevCardOfColor": null,
+    "haveDevCardOfLevel": null,
+    "specialAbility": "EXTRADEPOT",
+    "specialAbilityColor": "PURPLE",
+    "specialAbilityProductionPower": null,
+    "victoryPoints": 3,
+    "face": "/images/cards/leaders/leader6.png"
+
+  },
+  {
+    "requiresType": "RESOURCES",
+    "haveResources": {
+      "coins": 0,
+      "stones": 0,
+      "servants": 5,
+      "shields": 0
+    },
+    "haveDevCards": null,
+    "haveDevCardOfColor": null,
+    "haveDevCardOfLevel": null,
+    "specialAbility": "EXTRADEPOT",
+    "specialAbilityColor": "BLUE",
+    "specialAbilityProductionPower": null,
+    "victoryPoints": 3,
+    "face": "/images/cards/leaders/leader7.png"
+
+  },
+  {
+    "requiresType": "RESOURCES",
+    "haveResources": {
+      "coins": 0,
+      "stones": 0,
+      "servants": 0,
+      "shields": 5
+    },
+    "haveDevCards": null,
+    "haveDevCardOfColor": null,
+    "haveDevCardOfLevel": null,
+    "specialAbility": "EXTRADEPOT",
+    "specialAbilityColor": "YELLOW",
+    "specialAbilityProductionPower": null,
+    "victoryPoints": 3,
+    "face": "/images/cards/leaders/leader8.png"
+
+  },
+  {
+    "requiresType": "DEVELOPMENTCARDS",
+    "haveResources": null,
+    "haveDevCards": [
+      "YELLOW",
+      "YELLOW",
+      "BLUE"
+    ],
+    "haveDevCardOfColor": null,
+    "haveDevCardOfLevel": null,
+    "specialAbility": "WHITEMARBLE",
+    "specialAbilityColor": "PURPLE",
+    "specialAbilityProductionPower": null,
+    "victoryPoints": 5,
+    "face": "/images/cards/leaders/leader9.png"
+
+  },
+  {
+    "requiresType": "DEVELOPMENTCARDS",
+    "haveResources": null,
+    "haveDevCards": [
+      "GREEN",
+      "GREEN",
+      "PURPLE"
+    ],
+    "haveDevCardOfColor": null,
+    "haveDevCardOfLevel": null,
+    "specialAbility": "WHITEMARBLE",
+    "specialAbilityColor": "BLUE",
+    "specialAbilityProductionPower": null,
+    "victoryPoints": 5,
+    "face": "/images/cards/leaders/leader10.png"
+
+  },
+  {
+    "requiresType": "DEVELOPMENTCARDS",
+    "haveResources": null,
+    "haveDevCards": [
+      "BLUE",
+      "BLUE",
+      "YELLOW"
+    ],
+    "haveDevCardOfColor": null,
+    "haveDevCardOfLevel": null,
+    "specialAbility": "WHITEMARBLE",
+    "specialAbilityColor": "GREY",
+    "specialAbilityProductionPower": null,
+    "victoryPoints": 5,
+    "face": "/images/cards/leaders/leader11.png"
+
+  },
+  {
+    "requiresType": "DEVELOPMENTCARDS",
+    "haveResources": null,
+    "haveDevCards": [
+      "PURPLE",
+      "PURPLE",
+      "GREEN"
+    ],
+    "haveDevCardOfColor": null,
+    "haveDevCardOfLevel": null,
+    "specialAbility": "WHITEMARBLE",
+    "specialAbilityColor": "YELLOW",
+    "specialAbilityProductionPower": null,
+    "victoryPoints": 5,
+    "face": "/images/cards/leaders/leader12.png"
+
+  },
+  {
+    "requiresType": "DEVELOPMENTCARD",
+    "haveResources": null,
+    "haveDevCards": null,
+    "haveDevCardOfColor": "YELLOW",
+    "haveDevCardOfLevel": "2",
+    "specialAbility": "MOREPOWER",
+    "specialAbilityColor": null,
+    "specialAbilityProductionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 1
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 4,
+    "face": "/images/cards/leaders/leader13.png"
+
+  },
+  {
+    "requiresType": "DEVELOPMENTCARD",
+    "haveResources": null,
+    "haveDevCards": null,
+    "haveDevCardOfColor": "BLUE",
+    "haveDevCardOfLevel": "2",
+    "specialAbility": "MOREPOWER",
+    "specialAbilityColor": null,
+    "specialAbilityProductionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 1,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 4,
+    "face": "/images/cards/leaders/leader14.png"
+
+  },
+  {
+    "requiresType": "DEVELOPMENTCARD",
+    "haveResources": null,
+    "haveDevCards": null,
+    "haveDevCardOfColor": "PURPLE",
+    "haveDevCardOfLevel": "2",
+    "specialAbility": "MOREPOWER",
+    "specialAbilityColor": null,
+    "specialAbilityProductionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 1,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 4,
+    "face": "/images/cards/leaders/leader15.png"
+
+  },
+  {
+    "requiresType": "DEVELOPMENTCARD",
+    "haveResources": null,
+    "haveDevCards": null,
+    "haveDevCardOfColor": "GREEN",
+    "haveDevCardOfLevel": "2",
+    "specialAbility": "MOREPOWER",
+    "specialAbilityColor": null,
+    "specialAbilityProductionPower": {
+      "inputResources": {
+        "coins": 1,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 4,
+    "face": "/images/cards/leaders/leader16.png"
+
+  }
+]

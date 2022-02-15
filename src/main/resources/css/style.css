@@ -1,0 +1,132 @@
+@font-face {
+    src: url("../fonts/Marion-Bold.ttf");
+}
+@font-face {
+    src: url("../fonts/Marion-Regular.ttf");
+}
+.button{
+    -fx-text-fill: #f0ca77;
+    -fx-font-family: "Marion";
+    -fx-font-weight: normal;
+}
+
+.button:hover{
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-scale-z: 1.1;
+}
+.button:pressed{
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-scale-z: 1.1;
+    -fx-effect: innershadow(three-pass-box, rgba(240, 202, 119, .9), 25, 0, 0, 0);
+}
+.label-lg{
+    -fx-font-size: 24px;
+}
+.btn-lg{
+    -fx-background-image:url('../images/guiAsset/btn-lg.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-background-size: auto;
+    -fx-text-fill: #f0ca77;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 65px;
+    -fx-border-color:transparent;
+    -fx-border-width: 0px;
+    -fx-font-family: "Marion";
+    -fx-font-weight: normal;
+    -fx-font-size: 19;
+}
+.btn-md{
+    -fx-background-image:url('../images/guiAsset/btn-lg.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-background-size: cover;
+    -fx-text-fill: #f0ca77;
+    -fx-pref-width: 160px;
+    -fx-pref-height: 33px;
+    -fx-border-color:transparent;
+    -fx-border-width: 0px;
+    -fx-font-family: "Marion";
+    -fx-font-weight: normal;
+    -fx-font-size: 15;
+}
+.btn-bg-square{
+    -fx-background-image:url('../images/guiAsset/btn-bg-square.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-background-size: cover;
+    -fx-text-fill: #f0ca77;
+    -fx-pref-width: 35px;
+    -fx-pref-height: 35px;
+    -fx-border-color:transparent;
+    -fx-border-width: 0px;
+    -fx-font-family: "Marion";
+    -fx-font-weight: normal;
+    -fx-font-size: 15;
+}
+.btn{
+    -fx-background-image:url('../images/guiAsset/btn-lg.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-background-size: cover;
+    -fx-pref-width: 190px;
+    -fx-pref-height: 40px;
+}
+.btn-back{
+    -fx-font-size: 0;
+    -fx-padding: 0 0 0 0;
+    -fx-pref-width: 70px;
+    -fx-pref-height: 35px;
+    -fx-background-image:url('../images/guiAsset/btn-back.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-background-size: auto;
+}
+
+.fancyBgPane{
+    -fx-background-image:url('../images/guiAsset/MainMenuBG.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-background-size: auto;
+}
+.boardBg{
+    -fx-background-image:url('../images/board/board-bg.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-background-size: auto;
+}
+.label,.text-field {
+    -fx-text-fill: #231f20;
+    -fx-font-family: "Marion";
+    -fx-font-weight: normal;
+}
+.text-field{
+    -fx-pref-height: 35px;
+}
+.bg-light{
+    -fx-background-image:url('../images/guiAsset/bg-light-900x800.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left top;
+    -fx-background-color: transparent;
+    -fx-background-size: auto;
+}
+.bg-dialog{
+    -fx-background-image:url('../images/guiAsset/bg-light-900x800.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left bottom;
+    -fx-background-color: transparent;
+    -fx-background-size: auto;
+}
+.label-light{
+    -fx-text-fill: #fefbda;
+    -fx-effect: dropshadow(three-pass-box, rgba(240, 202, 119, .9), 10, 0, 0, 0);
+}

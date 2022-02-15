@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="waitingRoomPane" prefHeight="600.0" prefWidth="600.0" styleClass="fancyBgPane" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.view.gui.sceneController.WaitOtherPlayerController">
+   <children>
+      <Label layoutX="200.0" layoutY="402.0" styleClass="label-lg" text="Wait Other Players" textAlignment="CENTER" />
+      <ProgressIndicator layoutX="274.0" layoutY="467.0" />
+   </children>
+</AnchorPane>

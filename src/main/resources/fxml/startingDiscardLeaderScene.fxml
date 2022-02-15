@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="startingDiscardPane" maxHeight="-Infinity" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" styleClass="bg-light" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="900.0" AnchorPane.topAnchor="60.0">
+         <children>
+            <Label alignment="CENTER" prefWidth="600.0" text="Select  two Leaders to discard">
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="300.0" prefWidth="600.0" spacing="20.0">
+               <children>
+                  <ImageView fx:id="leader1" fitHeight="300.0" fitWidth="200.0" opacity="0.6" pickOnBounds="true" smooth="false" />
+                  <ImageView fx:id="leader2" fitHeight="300.0" fitWidth="200.0" opacity="0.6" pickOnBounds="true" smooth="false" />
+                  <ImageView fx:id="leader3" fitHeight="300.0" fitWidth="200.0" opacity="0.6" pickOnBounds="true" smooth="false" />
+                  <ImageView fx:id="leader4" fitHeight="300.0" fitWidth="200.0" opacity="0.6" pickOnBounds="true" smooth="false" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </HBox>
+            <Button fx:id="discardBtn" alignment="CENTER" disable="true" mnemonicParsing="false" styleClass="btn-md" text="Discard">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

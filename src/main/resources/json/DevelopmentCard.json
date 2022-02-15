@@ -1,0 +1,1282 @@
+[
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 0,
+      "servants": 0,
+      "shields": 2
+    },
+    "type": "GREEN",
+    "level": 1,
+    "productionPower": {
+      "inputResources": {
+        "coins": 1,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 1,
+    "face": "/images/cards/devCards/GREEN/DevCard1.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 1,
+      "servants": 1,
+      "shields": 1
+    },
+    "type": "GREEN",
+    "level": 1,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 1,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 1,
+        "shields": 0
+      }
+    },
+    "victoryPoints": 2,
+    "face": "/images/cards/devCards/GREEN/DevCard2.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 0,
+      "servants": 0,
+      "shields": 3
+    },
+    "type": "GREEN",
+    "level": 1,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 2,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 1,
+        "stones": 1,
+        "servants": 0,
+        "shields": 1
+      }
+    },
+    "victoryPoints": 3,
+    "face": "/images/cards/devCards/GREEN/DevCard3.png"
+  },
+  {
+    "cost": {
+      "coins": 2,
+      "stones": 0,
+      "servants": 0,
+      "shields": 2
+    },
+    "type": "GREEN",
+    "level": 1,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 1,
+        "servants": 1,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 2,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 4,
+    "face": "/images/cards/devCards/GREEN/DevCard4.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 0,
+      "servants": 0,
+      "shields": 4
+    },
+    "type": "GREEN",
+    "level": 2,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 1,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0,
+        "faith": 2
+      }
+    },
+    "victoryPoints": 5,
+    "face": "/images/cards/devCards/GREEN/DevCard5.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 0,
+      "servants": 2,
+      "shields": 3
+    },
+    "type": "GREEN",
+    "level": 2,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 1,
+        "shields": 1
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 3,
+        "servants": 0,
+        "shields": 0
+      }
+    },
+    "victoryPoints": 6,
+    "face": "/images/cards/devCards/GREEN/DevCard6.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 0,
+      "servants": 0,
+      "shields": 5
+    },
+    "type": "GREEN",
+    "level": 2,
+    "productionPower": {
+      "inputResources": {
+        "coins": 2,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 2,
+        "servants": 0,
+        "shields": 0,
+        "faith": 2
+      }
+    },
+    "victoryPoints": 7,
+    "face": "/images/cards/devCards/GREEN/DevCard7.png"
+  },
+  {
+    "cost": {
+      "coins": 3,
+      "stones": 0,
+      "servants": 0,
+      "shields": 3
+    },
+    "type": "GREEN",
+    "level": 2,
+    "productionPower": {
+      "inputResources": {
+        "coins": 1,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 2,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 8,
+    "face": "/images/cards/devCards/GREEN/DevCard8.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 0,
+      "servants": 0,
+      "shields": 6
+    },
+    "type": "GREEN",
+    "level": 3,
+    "productionPower": {
+      "inputResources": {
+        "coins": 2,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 3,
+        "servants": 0,
+        "shields": 0,
+        "faith": 2
+      }
+    },
+    "victoryPoints": 9,
+    "face": "/images/cards/devCards/GREEN/DevCard9.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 0,
+      "servants": 2,
+      "shields": 5
+    },
+    "type": "GREEN",
+    "level": 3,
+    "productionPower": {
+      "inputResources": {
+        "coins": 1,
+        "stones": 0,
+        "servants": 1,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 2,
+        "servants": 0,
+        "shields": 2,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 10,
+    "face": "/images/cards/devCards/GREEN/DevCard10.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 0,
+      "servants": 0,
+      "shields": 7
+    },
+    "type": "GREEN",
+    "level": 3,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 1,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 1,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0,
+        "faith": 3
+      }
+    },
+    "victoryPoints": 11,
+    "face": "/images/cards/devCards/GREEN/DevCard11.png"
+  },
+  {
+    "cost": {
+      "coins": 4,
+      "stones": 0,
+      "servants": 0,
+      "shields": 4
+    },
+    "type": "GREEN",
+    "level": 3,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 1,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 3,
+        "stones": 0,
+        "servants": 0,
+        "shields": 1
+      }
+    },
+    "victoryPoints": 12,
+    "face": "/images/cards/devCards/GREEN/DevCard12.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 2,
+      "servants": 0,
+      "shields": 0
+    },
+    "type": "YELLOW",
+    "level": 1,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 1,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 1,
+    "face": "/images/cards/devCards/YELLOW/DevCard1.png"
+  },
+  {
+    "cost": {
+      "coins": 1,
+      "stones": 1,
+      "servants": 0,
+      "shields": 1
+    },
+    "type": "YELLOW",
+    "level": 1,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 1
+      },
+      "outputResources": {
+        "coins": 1,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0
+      }
+    },
+    "victoryPoints": 2,
+    "face": "/images/cards/devCards/YELLOW/DevCard2.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 3,
+      "servants": 0,
+      "shields": 0
+    },
+    "type": "YELLOW",
+    "level": 1,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 2
+      },
+      "outputResources": {
+        "coins": 1,
+        "stones": 1,
+        "servants": 1,
+        "shields": 0
+      }
+    },
+    "victoryPoints": 3,
+    "face": "/images/cards/devCards/YELLOW/DevCard3.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 2,
+      "servants": 0,
+      "shields": 2
+    },
+    "type": "YELLOW",
+    "level": 1,
+    "productionPower": {
+      "inputResources": {
+        "coins": 1,
+        "stones": 0,
+        "servants": 1,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 2,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 4,
+    "face": "/images/cards/devCards/YELLOW/DevCard4.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 4,
+      "servants": 0,
+      "shields": 0
+    },
+    "type": "YELLOW",
+    "level": 2,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 1
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0,
+        "faith": 2
+      }
+    },
+    "victoryPoints": 5,
+    "face": "/images/cards/devCards/YELLOW/DevCard5.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 3,
+      "servants": 0,
+      "shields": 2
+    },
+    "type": "YELLOW",
+    "level": 2,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 1,
+        "servants": 0,
+        "shields": 1
+      },
+      "outputResources": {
+        "coins": 3,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0
+      }
+    },
+    "victoryPoints": 6,
+    "face": "/images/cards/devCards/YELLOW/DevCard6.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 5,
+      "servants": 0,
+      "shields": 0
+    },
+    "type": "YELLOW",
+    "level": 2,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 2
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 2,
+        "shields": 0,
+        "faith": 2
+      }
+    },
+    "victoryPoints": 7,
+    "face": "/images/cards/devCards/YELLOW/DevCard7.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 3,
+      "servants": 3,
+      "shields": 0
+    },
+    "type": "YELLOW",
+    "level": 2,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 1
+      },
+      "outputResources": {
+        "coins": 2,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 8,
+    "face": "/images/cards/devCards/YELLOW/DevCard8.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 6,
+      "servants": 0,
+      "shields": 0
+    },
+    "type": "YELLOW",
+    "level": 3,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 2
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 3,
+        "shields": 0,
+        "faith": 2
+      }
+    },
+    "victoryPoints": 9,
+    "face": "/images/cards/devCards/YELLOW/DevCard9.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 5,
+      "servants": 2,
+      "shields": 0
+    },
+    "type": "YELLOW",
+    "level": 3,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 1,
+        "servants": 1,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 2,
+        "stones": 0,
+        "servants": 0,
+        "shields": 2,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 10,
+    "face": "/images/cards/devCards/YELLOW/DevCard10.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 7,
+      "servants": 0,
+      "shields": 0
+    },
+    "type": "YELLOW",
+    "level": 3,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 1
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 1,
+        "shields": 0,
+        "faith": 3
+      }
+    },
+    "victoryPoints": 11,
+    "face": "/images/cards/devCards/YELLOW/DevCard11.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 4,
+      "servants": 4,
+      "shields": 0
+    },
+    "type": "YELLOW",
+    "level": 3,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 1
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 1,
+        "servants": 3,
+        "shields": 0
+      }
+    },
+    "victoryPoints": 12,
+    "face": "/images/cards/devCards/YELLOW/DevCard12.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 0,
+      "servants": 2,
+      "shields": 0
+    },
+    "type": "PURPLE",
+    "level": 1,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 1,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 1,
+    "face": "/images/cards/devCards/PURPLE/DevCard1.png"
+  },
+  {
+    "cost": {
+      "coins": 1,
+      "stones": 0,
+      "servants": 1,
+      "shields": 1
+    },
+    "type": "PURPLE",
+    "level": 1,
+    "productionPower": {
+      "inputResources": {
+        "coins": 1,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 1
+      }
+    },
+    "victoryPoints": 2,
+    "face": "/images/cards/devCards/PURPLE/DevCard2.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 0,
+      "servants": 3,
+      "shields": 0
+    },
+    "type": "PURPLE",
+    "level": 1,
+    "productionPower": {
+      "inputResources": {
+        "coins": 2,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 1,
+        "servants": 1,
+        "shields": 1
+      }
+    },
+    "victoryPoints": 3,
+    "face": "/images/cards/devCards/PURPLE/DevCard3.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 2,
+      "servants": 2,
+      "shields": 0
+    },
+    "type": "PURPLE",
+    "level": 1,
+    "productionPower": {
+      "inputResources": {
+        "coins": 1,
+        "stones": 0,
+        "servants": 0,
+        "shields": 1
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 2,
+        "servants": 0,
+        "shields": 0,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 4,
+    "face": "/images/cards/devCards/PURPLE/DevCard4.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 0,
+      "servants": 4,
+      "shields": 0
+    },
+    "type": "PURPLE",
+    "level": 2,
+    "productionPower": {
+      "inputResources": {
+        "coins": 1,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0,
+        "faith": 2
+      }
+    },
+    "victoryPoints": 5,
+    "face": "/images/cards/devCards/PURPLE/DevCard5.png"
+  },
+  {
+    "cost": {
+      "coins": 2,
+      "stones": 0,
+      "servants": 3,
+      "shields": 0
+    },
+    "type": "PURPLE",
+    "level": 2,
+    "productionPower": {
+      "inputResources": {
+        "coins": 1,
+        "stones": 0,
+        "servants": 1,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 3
+      }
+    },
+    "victoryPoints": 6,
+    "face": "/images/cards/devCards/PURPLE/DevCard6.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 0,
+      "servants": 5,
+      "shields": 0
+    },
+    "type": "PURPLE",
+    "level": 2,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 2,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 2,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0,
+        "faith": 2
+      }
+    },
+    "victoryPoints": 7,
+    "face": "/images/cards/devCards/PURPLE/DevCard7.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 0,
+      "servants": 3,
+      "shields": 3
+    },
+    "type": "PURPLE",
+    "level": 2,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 1,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 2,
+        "shields": 0,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 8,
+    "face": "/images/cards/devCards/PURPLE/DevCard8.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 0,
+      "servants": 6,
+      "shields": 0
+    },
+    "type": "PURPLE",
+    "level": 3,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 2,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 3,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0,
+        "faith": 2
+      }
+    },
+    "victoryPoints": 9,
+    "face": "/images/cards/devCards/PURPLE/DevCard9.png"
+  },
+  {
+    "cost": {
+      "coins": 2,
+      "stones": 0,
+      "servants": 5,
+      "shields": 0
+    },
+    "type": "PURPLE",
+    "level": 3,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 1,
+        "servants": 0,
+        "shields": 1
+      },
+      "outputResources": {
+        "coins": 2,
+        "stones": 0,
+        "servants": 2,
+        "shields": 0,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 10,
+    "face": "/images/cards/devCards/PURPLE/DevCard10.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 0,
+      "servants": 7,
+      "shields": 0
+    },
+    "type": "PURPLE",
+    "level": 3,
+    "productionPower": {
+      "inputResources": {
+        "coins": 1,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 1,
+        "servants": 0,
+        "shields": 0,
+        "faith": 3
+      }
+    },
+    "victoryPoints": 11,
+    "face": "/images/cards/devCards/PURPLE/DevCard11.png"
+  },
+  {
+    "cost": {
+      "coins": 0,
+      "stones": 0,
+      "servants": 4,
+      "shields": 4
+    },
+    "type": "PURPLE",
+    "level": 3,
+    "productionPower": {
+      "inputResources": {
+        "coins": 1,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 3,
+        "servants": 1,
+        "shields": 0
+      }
+    },
+    "victoryPoints": 12,
+    "face": "/images/cards/devCards/PURPLE/DevCard12.png"
+  },
+  {
+    "cost": {
+      "coins": 2,
+      "stones": 0,
+      "servants": 0,
+      "shields": 0
+    },
+    "type": "BLUE",
+    "level": 1,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 1
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 1,
+    "face": "/images/cards/devCards/BLUE/DevCard1.png"
+  },
+  {
+    "cost": {
+      "coins": 1,
+      "stones": 1,
+      "servants": 1,
+      "shields": 0
+    },
+    "type": "BLUE",
+    "level": 1,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 1,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 1,
+        "servants": 0,
+        "shields": 0
+      }
+    },
+    "victoryPoints": 2,
+    "face": "/images/cards/devCards/BLUE/DevCard2.png"
+  },
+  {
+    "cost": {
+      "coins": 3,
+      "stones": 0,
+      "servants": 0,
+      "shields": 0
+    },
+    "type": "BLUE",
+    "level": 1,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 2,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 1,
+        "stones": 0,
+        "servants": 1,
+        "shields": 1
+      }
+    },
+    "victoryPoints": 3,
+    "face": "/images/cards/devCards/BLUE/DevCard3.png"
+  },
+  {
+    "cost": {
+      "coins": 2,
+      "stones": 0,
+      "servants": 2,
+      "shields": 0
+    },
+    "type": "BLUE",
+    "level": 1,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 1,
+        "servants": 0,
+        "shields": 1
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 2,
+        "shields": 0,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 4,
+    "face": "/images/cards/devCards/BLUE/DevCard4.png"
+  },
+  {
+    "cost": {
+      "coins": 4,
+      "stones": 0,
+      "servants": 0,
+      "shields": 0
+    },
+    "type": "BLUE",
+    "level": 2,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 1,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 0,
+        "faith": 2
+      }
+    },
+    "victoryPoints": 5,
+    "face": "/images/cards/devCards/BLUE/DevCard5.png"
+  },
+  {
+    "cost": {
+      "coins": 3,
+      "stones": 2,
+      "servants": 0,
+      "shields": 0
+    },
+    "type": "BLUE",
+    "level": 2,
+    "productionPower": {
+      "inputResources": {
+        "coins": 1,
+        "stones": 1,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 3,
+        "shields": 0
+      }
+    },
+    "victoryPoints": 6,
+    "face": "/images/cards/devCards/BLUE/DevCard6.png"
+  },
+  {
+    "cost": {
+      "coins": 5,
+      "stones": 0,
+      "servants": 0,
+      "shields": 0
+    },
+    "type": "BLUE",
+    "level": 2,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 2,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 2,
+        "faith": 2
+      }
+    },
+    "victoryPoints": 7,
+    "face": "/images/cards/devCards/BLUE/DevCard7.png"
+  },
+  {
+    "cost": {
+      "coins": 3,
+      "stones": 3,
+      "servants": 0,
+      "shields": 0
+    },
+    "type": "BLUE",
+    "level": 2,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 1,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 2,
+        "servants": 0,
+        "shields": 0,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 8,
+    "face": "/images/cards/devCards/BLUE/DevCard8.png"
+  },
+  {
+    "cost": {
+      "coins": 6,
+      "stones": 0,
+      "servants": 0,
+      "shields": 0
+    },
+    "type": "BLUE",
+    "level": 3,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 2,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 3,
+        "faith": 2
+      }
+    },
+    "victoryPoints": 9,
+    "face": "/images/cards/devCards/BLUE/DevCard9.png"
+  },
+  {
+    "cost": {
+      "coins": 5,
+      "stones": 2,
+      "servants": 0,
+      "shields": 0
+    },
+    "type": "BLUE",
+    "level": 3,
+    "productionPower": {
+      "inputResources": {
+        "coins": 1,
+        "stones": 0,
+        "servants": 0,
+        "shields": 1
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 2,
+        "servants": 2,
+        "shields": 0,
+        "faith": 1
+      }
+    },
+    "victoryPoints": 10,
+    "face": "/images/cards/devCards/BLUE/DevCard10.png"
+  },
+  {
+    "cost": {
+      "coins": 7,
+      "stones": 0,
+      "servants": 0,
+      "shields": 0
+    },
+    "type": "BLUE",
+    "level": 3,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 1,
+        "servants": 0,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 0,
+        "shields": 1,
+        "faith": 3
+      }
+    },
+    "victoryPoints": 11,
+    "face": "/images/cards/devCards/BLUE/DevCard11.png"
+  },
+  {
+    "cost": {
+      "coins": 4,
+      "stones": 4,
+      "servants": 0,
+      "shields": 0
+    },
+    "type": "BLUE",
+    "level": 3,
+    "productionPower": {
+      "inputResources": {
+        "coins": 0,
+        "stones": 0,
+        "servants": 1,
+        "shields": 0
+      },
+      "outputResources": {
+        "coins": 1,
+        "stones": 0,
+        "servants": 0,
+        "shields": 3
+      }
+    },
+    "victoryPoints": 12,
+    "face": "/images/cards/devCards/BLUE/DevCard12.png"
+  }
+]

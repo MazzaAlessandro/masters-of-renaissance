@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="waitingRoomPane" prefHeight="600.0" prefWidth="600.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.view.gui.sceneController.WaitingRoomController">
+      <VBox alignment="CENTER" layoutY="250.0" prefHeight="400.0" prefWidth="600.0" spacing="20.0" AnchorPane.bottomAnchor="0.0">
+      <children>
+         <Label styleClass="label-lg" text="Preliminary phase" />
+         <Button fx:id="newMatchBtn" mnemonicParsing="false" onAction="#newMatchUpdate" styleClass="btn-lg" text="Create New Match" />
+         <Button fx:id="joinMatchBtn" mnemonicParsing="false" onAction="#joinUpdate" styleClass="btn-lg" text="Join in Existing Match" />
+      </children></VBox>
+   <styleClass>
+      <String fx:value="default-pane" />
+      <String fx:value="fancyBgPane" />
+   </styleClass>
+</AnchorPane>
