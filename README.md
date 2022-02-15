@@ -1,10 +1,13 @@
-![Head](/deliverables/Misc/doc-head.jpg)
 # Masters of Renaissance
+![Head](/deliverables/Misc/doc-head.jpg)
 Masters of the Renaissance is a new engine building game that recreates the atmosphere of Lorenzo il Magnifico with simple rules and a limited duration.
 On your turn you may acquire a development card, take resources from the market or activate development cards on your board. Each development card allow you to transform resources by moving them from your limited depots to the unlimited bank space; in this way you may accumulate many resource to acquire the most powerful cards.
 As in Lorenzo you will have to follow the requests of your leaders to have access to their interested powers.
+
 The game is created by [Cranio Creations srl](https://www.craniointernational.com)
+
 [Buy the board game](https://craniointernational.com/products/masters-of-renaissance/)
+
 ### COPYRIGHT DISCLAIMER
 The images, names used, the rules of the game and all contents except the source code belong to [Cranio Creations srl](https://www.craniointernational.com)
 ### Implemented features
@@ -49,7 +52,7 @@ It should be noted that the CLI uses many Unicode characters and ANSI codes, as 
 ### General notes
 The structure of the whole system is displayed by different UMLs: beside the “complete.png”, which gives a detailed look to the entirety of the system, we also decided to split it in various UMLs to maintain its readability
 ### Group Members
-* [Mazza Alessandro] (https://github.com/MazzaAlessandro)
-* [Marinotto Davide] (https://github.com/mdavide99)
-* [Gerometta Giulia] (https://github.com/giuliagerometta)
+- [Mazza Alessandro](https://github.com/MazzaAlessandro)
+- [Marinotto Davide](https://github.com/mdavide99)
+- [Gerometta Giulia](https://github.com/giuliagerometta)
 
